@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ruleset name="Riaz Portfolio">
+	<description>WordPress Coding Standards for the Riaz Portfolio theme and its companion plugin.</description>
+
+	<file>riaz-portfolio</file>
+	<file>riaz-portfolio-core</file>
+	<arg name="extensions" value="php"/>
+	<arg value="s"/>
+
+	<rule ref="WordPress-Extra"/>
+	<rule ref="WordPress-Docs"/>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="riaz-portfolio"/>
+				<element value="riaz-portfolio-core"/>
+			</property>
+		</properties>
+	</rule>
+
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="riaz"/>
+			</property>
+		</properties>
+	</rule>
+
+	<!-- WordPress requires these names: single-{post_type}.php templates and block index.asset.php. -->
+	<rule ref="WordPress.Files.FileName.NotHyphenatedLowercase">
+		<exclude-pattern>template-parts/content/single-riaz_*\.php</exclude-pattern>
+		<exclude-pattern>blocks/*/index\.asset\.php</exclude-pattern>
+	</rule>
+</ruleset>

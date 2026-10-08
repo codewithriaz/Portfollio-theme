@@ -1,0 +1,114 @@
+/*
+ * Block editor canvas styles. Loaded after main.css through add_editor_style(),
+ * which scopes every selector to the editor canvas.
+ */
+
+body {
+	color: var(--rp-ink);
+	font-family: var(--rp-font-body);
+	font-size: 17.5px;
+	line-height: 1.78;
+}
+
+.is-root-container > * + *,
+.is-layout-flow > * + *,
+.is-layout-constrained > * + * {
+	margin-block-start: 1.35em;
+}
+
+p,
+ul,
+ol,
+blockquote,
+figure {
+	line-height: 1.78;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.editor-post-title__input,
+.wp-block-post-title {
+	color: var(--rp-ink);
+	font-family: var(--rp-font-heading);
+	font-weight: var(--rp-heading-weight);
+	letter-spacing: -0.025em;
+	line-height: 1.2;
+}
+
+.editor-post-title__input,
+.wp-block-post-title {
+	font-size: clamp(34px, 4.5vw, 52px);
+	letter-spacing: -0.035em;
+}
+
+h1 {
+	font-size: 2.4em;
+}
+
+h2 {
+	font-size: 1.85em;
+}
+
+h3 {
+	font-size: 1.45em;
+}
+
+h4 {
+	font-size: 1.2em;
+}
+
+a {
+	color: var(--rp-primary);
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+ul li::marker {
+	color: var(--rp-accent);
+}
+
+blockquote,
+.wp-block-quote {
+	padding: 6px 0 6px 26px;
+	border-left: 3px solid var(--rp-accent);
+	font-size: 1.15em;
+}
+
+.wp-block-image img {
+	border-radius: 20px;
+}
+
+.wp-block-button__link {
+	text-decoration: none;
+}
+
+pre {
+	padding: 22px 24px;
+	border-radius: 18px;
+	background: var(--rp-darker);
+	color: #dfe8f7;
+}
+
+/* Theme Section block previews keep their own spacing. */
+.riaz-section-block {
+	margin-block: 0 !important;
+}
+
+.riaz-section-block p,
+.riaz-section-block h2,
+.riaz-section-block h3 {
+	margin: 0;
+}
+
+.riaz-section-block a {
+	text-decoration: none;
+}
+
+.riaz-section-block .entry-content a,
+.riaz-section-block .faq-answer-inner a {
+	text-decoration: underline;
+}

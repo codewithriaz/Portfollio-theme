@@ -1,0 +1,991 @@
+# Copyright (C) 2026 Riaz Ahmed
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Riaz Portfolio Core 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/riaz-portfolio-core\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-08T12:12:39+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: riaz-portfolio-core\n"
+
+#. Plugin Name of the plugin
+#: riaz-portfolio-core.php
+msgid "Riaz Portfolio Core"
+msgstr ""
+
+#. Description of the plugin
+#: riaz-portfolio-core.php
+msgid "Companion plugin for the Riaz Portfolio theme: services, portfolio, case studies, testimonials, team, FAQ and pricing content types, the Theme Section block, Elementor widget, shortcodes, contact form, SEO meta and schema, and the starter content importer. Your content stays safe if you ever switch themes."
+msgstr ""
+
+#. Author of the plugin
+#: riaz-portfolio-core.php
+msgid "Riaz Ahmed"
+msgstr ""
+
+#: blocks/section/render.php:14
+msgid "Theme sections need the Riaz Portfolio theme."
+msgstr ""
+
+#: blocks/section/render.php:28
+msgid "This section has no content yet. Add items in the WordPress admin and it will appear here."
+msgstr ""
+
+#: includes/blocks.php:27
+#: includes/blocks.php:88
+#: includes/elementor.php:19
+msgid "Riaz Portfolio"
+msgstr ""
+
+#: includes/blocks.php:32
+msgid "Full homepage (all sections)"
+msgstr ""
+
+#: includes/blocks.php:33
+msgid "Every theme section in the default order. Reorder, remove or add blocks between them."
+msgstr ""
+
+#: includes/blocks.php:37
+msgid "Services landing page"
+msgstr ""
+
+#: includes/blocks.php:38
+msgid "Services, process, pricing, FAQ and a call to action."
+msgstr ""
+
+#: includes/blocks.php:42
+msgid "About page"
+msgstr ""
+
+#: includes/blocks.php:43
+msgid "About, statistics, team, testimonials and a call to action."
+msgstr ""
+
+#: includes/blocks.php:47
+msgid "Contact page"
+msgstr ""
+
+#: includes/blocks.php:48
+msgid "Contact details with the form, followed by the FAQ."
+msgstr ""
+
+#: includes/class-riaz-core-elementor-section-widget.php:30
+msgid "Theme Section"
+msgstr ""
+
+#: includes/class-riaz-core-elementor-section-widget.php:66
+#: includes/class-riaz-core-elementor-section-widget.php:72
+#: blocks/section/index.js:30
+#: blocks/section/index.js:32
+msgid "Section"
+msgstr ""
+
+#: includes/class-riaz-core-elementor-section-widget.php:82
+#: blocks/section/index.js:39
+msgid "HTML anchor (optional)"
+msgstr ""
+
+#: includes/class-riaz-core-elementor-section-widget.php:93
+msgid "Edit this section’s content in Appearance → Customize → Homepage Sections, or in its post type (Services, Portfolio, FAQs…)."
+msgstr ""
+
+#: includes/class-riaz-core-elementor-section-widget.php:113
+msgid "This section has no content yet. Add items in the WordPress admin."
+msgstr ""
+
+#: includes/contact-form.php:27
+msgid "Thank you! Your message has been sent. I will get back to you soon."
+msgstr ""
+
+#: includes/contact-form.php:28
+msgid "Please fill in your name, a valid email address and a message."
+msgstr ""
+
+#: includes/contact-form.php:29
+msgid "The form expired. Please refresh the page and try again."
+msgstr ""
+
+#: includes/contact-form.php:30
+msgid "Too many messages in a short time. Please try again in a few minutes."
+msgstr ""
+
+#: includes/contact-form.php:31
+msgid "Sorry, your message could not be sent. Please email me directly instead."
+msgstr ""
+
+#: includes/contact-form.php:44
+msgid "Your details are only used to reply to your message."
+msgstr ""
+
+#: includes/contact-form.php:45
+msgid "Send message"
+msgstr ""
+
+#: includes/contact-form.php:62
+msgid "Your name"
+msgstr ""
+
+#: includes/contact-form.php:66
+msgid "Email address"
+msgstr ""
+
+#: includes/contact-form.php:70
+msgid "Company or website"
+msgstr ""
+
+#: includes/contact-form.php:74
+msgid "How can I help?"
+msgstr ""
+
+#: includes/contact-form.php:78
+msgid "Leave this field empty"
+msgstr ""
+
+#. translators: 1: site name, 2: sender name.
+#: includes/contact-form.php:154
+#, php-format
+msgid "[%1$s] New message from %2$s"
+msgstr ""
+
+#: includes/contact-form.php:157
+msgid "Name"
+msgstr ""
+
+#: includes/contact-form.php:159
+#: includes/meta-boxes.php:156
+msgid "Email"
+msgstr ""
+
+#: includes/contact-form.php:161
+msgid "Company"
+msgstr ""
+
+#. translators: %s: page URL.
+#: includes/contact-form.php:165
+#, php-format
+msgid "Sent from %s"
+msgstr ""
+
+#: includes/importer.php:23
+msgid "SEO & discoverability"
+msgstr ""
+
+#: includes/importer.php:23
+msgid "A solid search foundation with clear priorities and steady improvements."
+msgstr ""
+
+#: includes/importer.php:24
+msgid "Keyword & audience research"
+msgstr ""
+
+#: includes/importer.php:24
+msgid "Understand what your customers search for and the questions they ask."
+msgstr ""
+
+#: includes/importer.php:25
+msgid "On-page & technical SEO"
+msgstr ""
+
+#: includes/importer.php:25
+msgid "Make your site easier for people and search engines to find and understand."
+msgstr ""
+
+#: includes/importer.php:26
+msgid "Content that connects"
+msgstr ""
+
+#: includes/importer.php:26
+msgid "Useful content built from real expertise that supports the customer journey."
+msgstr ""
+
+#: includes/importer.php:27
+msgid "Digital growth strategy"
+msgstr ""
+
+#: includes/importer.php:27
+msgid "Bring channels, audience needs, and business goals into one practical plan."
+msgstr ""
+
+#: includes/importer.php:28
+msgid "Measurement & learning"
+msgstr ""
+
+#: includes/importer.php:28
+msgid "Track what matters, review what works, and keep building momentum."
+msgstr ""
+
+#: includes/importer.php:39
+msgid "What can you help me with?"
+msgstr ""
+
+#: includes/importer.php:39
+msgid "Digital strategy, SEO, and content: understanding your audience, improving how you show up in search, and shaping a plan you can act on."
+msgstr ""
+
+#: includes/importer.php:40
+msgid "How do we get started?"
+msgstr ""
+
+#: includes/importer.php:40
+msgid "It starts with a conversation about your business, your goals, and where growth feels stuck. From there we shape a focused next step."
+msgstr ""
+
+#: includes/importer.php:41
+msgid "Do you work with startups and small businesses?"
+msgstr ""
+
+#: includes/importer.php:41
+msgid "Yes. The approach is shaped around where you are today and where you want to go, whatever the size of the business."
+msgstr ""
+
+#: includes/importer.php:42
+msgid "Is the work focused on measurable outcomes?"
+msgstr ""
+
+#: includes/importer.php:42
+msgid "Every recommendation is tied back to a goal, with meaningful measurement built in so you can see what is working."
+msgstr ""
+
+#: includes/importer.php:43
+msgid "What makes your approach different?"
+msgstr ""
+
+#: includes/importer.php:43
+msgid "Growth built with intention, not noise. The work starts by understanding your audience and ends with a plan you can actually move forward with."
+msgstr ""
+
+#: includes/importer.php:214
+msgid "Created 6 services and 5 FAQs (existing items with the same title were kept)."
+msgstr ""
+
+#: includes/importer.php:222
+#: includes/importer.php:242
+msgid "Home"
+msgstr ""
+
+#: includes/importer.php:229
+msgid "Blog"
+msgstr ""
+
+#: includes/importer.php:236
+msgid "Created the Home and Blog pages and set them in Settings → Reading."
+msgstr ""
+
+#: includes/importer.php:243
+#: includes/importer.php:253
+msgid "About"
+msgstr ""
+
+#: includes/importer.php:244
+#: includes/importer.php:254
+#: includes/post-types.php:21
+msgid "Services"
+msgstr ""
+
+#: includes/importer.php:245
+#: includes/importer.php:255
+msgid "Approach"
+msgstr ""
+
+#: includes/importer.php:246
+#: includes/post-types.php:48
+msgid "Testimonials"
+msgstr ""
+
+#: includes/importer.php:247
+#: includes/importer.php:256
+#: includes/post-types.php:61
+msgid "FAQ"
+msgstr ""
+
+#: includes/importer.php:249
+msgid "Primary"
+msgstr ""
+
+#: includes/importer.php:251
+msgid "Footer — Explore"
+msgstr ""
+
+#: includes/importer.php:261
+msgid "Footer — Focus"
+msgstr ""
+
+#: includes/importer.php:263
+msgid "Digital strategy"
+msgstr ""
+
+#: includes/importer.php:264
+msgid "SEO"
+msgstr ""
+
+#: includes/importer.php:265
+msgid "Content"
+msgstr ""
+
+#: includes/importer.php:269
+msgid "Created the Primary and footer menus (Appearance → Menus)."
+msgstr ""
+
+#: includes/importer.php:276
+msgid "Added the bundled logo (Customize → Site Identity)."
+msgstr ""
+
+#: includes/importer.php:290
+msgid "Sample project: search visibility refresh"
+msgstr ""
+
+#: includes/importer.php:291
+msgid "Sample project: content hub for a service brand"
+msgstr ""
+
+#: includes/importer.php:292
+msgid "Sample project: technical SEO clean-up"
+msgstr ""
+
+#: includes/importer.php:300
+msgid "Replace this sample with a real project: the goal, what you did and what changed."
+msgstr ""
+
+#: includes/importer.php:301
+msgid "Describe the challenge, your approach and the outcome. Add images, quotes and results using blocks, Elementor or Divi."
+msgstr ""
+
+#: includes/importer.php:313
+msgid "Sample case study: from scattered content to a clear plan"
+msgstr ""
+
+#: includes/importer.php:314
+msgid "Replace this sample with a real story. Only add results you can verify."
+msgstr ""
+
+#: includes/importer.php:315
+msgid "The challenge"
+msgstr ""
+
+#: includes/importer.php:315
+msgid "What was holding growth back?"
+msgstr ""
+
+#: includes/importer.php:315
+msgid "The approach"
+msgstr ""
+
+#: includes/importer.php:315
+msgid "What did you prioritize and why?"
+msgstr ""
+
+#: includes/importer.php:315
+msgid "The outcome"
+msgstr ""
+
+#: includes/importer.php:315
+msgid "What changed for the business?"
+msgstr ""
+
+#: includes/importer.php:319
+msgid "Sample plan: Audit"
+msgstr ""
+
+#: includes/importer.php:319
+#: includes/importer.php:320
+#: includes/importer.php:321
+msgid "Custom"
+msgstr ""
+
+#: includes/importer.php:320
+msgid "Sample plan: Growth"
+msgstr ""
+
+#: includes/importer.php:320
+#: includes/importer.php:321
+msgid "/ month"
+msgstr ""
+
+#: includes/importer.php:321
+msgid "Sample plan: Partnership"
+msgstr ""
+
+#: includes/importer.php:329
+msgid "Replace this sample with your real offer."
+msgstr ""
+
+#: includes/importer.php:336
+msgid "Most popular"
+msgstr ""
+
+#: includes/importer.php:337
+msgid "Start a conversation"
+msgstr ""
+
+#: includes/importer.php:343
+msgid "Created sample projects, a case study and pricing plans as drafts. Edit and publish them when they contain real information."
+msgstr ""
+
+#: includes/importer.php:364
+msgid "You are not allowed to import content."
+msgstr ""
+
+#: includes/importer.php:392
+msgid "What to import"
+msgstr ""
+
+#: includes/importer.php:393
+msgid "Services (6) and FAQs (5) from the design"
+msgstr ""
+
+#: includes/importer.php:395
+msgid "Home and Blog pages, set as front page and posts page"
+msgstr ""
+
+#: includes/importer.php:397
+msgid "Primary and footer menus"
+msgstr ""
+
+#: includes/importer.php:398
+msgid "Bundled logo (only if no logo is set)"
+msgstr ""
+
+#: includes/importer.php:399
+msgid "Sample projects, case study and pricing plans (saved as drafts)"
+msgstr ""
+
+#: includes/importer.php:401
+msgid "Import starter content"
+msgstr ""
+
+#: includes/meta-boxes.php:21
+msgid "Service details"
+msgstr ""
+
+#: includes/meta-boxes.php:27
+msgid "Icon"
+msgstr ""
+
+#: includes/meta-boxes.php:31
+msgid "Highlight this card (blue gradient)"
+msgstr ""
+
+#: includes/meta-boxes.php:35
+msgid "Custom \"Learn more\" link"
+msgstr ""
+
+#: includes/meta-boxes.php:36
+msgid "Optional. By default the card links to this service page when it has content."
+msgstr ""
+
+#: includes/meta-boxes.php:41
+msgid "Project details"
+msgstr ""
+
+#: includes/meta-boxes.php:47
+#: includes/meta-boxes.php:70
+msgid "Client"
+msgstr ""
+
+#: includes/meta-boxes.php:51
+msgid "Services / role"
+msgstr ""
+
+#: includes/meta-boxes.php:55
+msgid "Year"
+msgstr ""
+
+#: includes/meta-boxes.php:59
+msgid "Live project URL"
+msgstr ""
+
+#: includes/meta-boxes.php:64
+msgid "Case study details"
+msgstr ""
+
+#: includes/meta-boxes.php:74
+msgid "Industry"
+msgstr ""
+
+#: includes/meta-boxes.php:78
+msgid "Timeline"
+msgstr ""
+
+#: includes/meta-boxes.php:82
+msgid "Result 1 — value"
+msgstr ""
+
+#: includes/meta-boxes.php:83
+msgid "Only use results you can verify, e.g. \"+38%\"."
+msgstr ""
+
+#: includes/meta-boxes.php:87
+msgid "Result 1 — label"
+msgstr ""
+
+#: includes/meta-boxes.php:91
+msgid "Result 2 — value"
+msgstr ""
+
+#: includes/meta-boxes.php:95
+msgid "Result 2 — label"
+msgstr ""
+
+#: includes/meta-boxes.php:99
+msgid "Result 3 — value"
+msgstr ""
+
+#: includes/meta-boxes.php:103
+msgid "Result 3 — label"
+msgstr ""
+
+#: includes/meta-boxes.php:108
+msgid "Testimonial details"
+msgstr ""
+
+#: includes/meta-boxes.php:114
+msgid "Role & company"
+msgstr ""
+
+#: includes/meta-boxes.php:118
+msgid "YouTube video URL"
+msgstr ""
+
+#: includes/meta-boxes.php:119
+msgid "Optional. Add a YouTube or Shorts link to make this a video testimonial. Leave empty for a written quote (write it in the editor above)."
+msgstr ""
+
+#: includes/meta-boxes.php:123
+msgid "Star rating"
+msgstr ""
+
+#: includes/meta-boxes.php:125
+msgid "No rating"
+msgstr ""
+
+#: includes/meta-boxes.php:134
+msgid "Team member details"
+msgstr ""
+
+#: includes/meta-boxes.php:140
+msgid "Role"
+msgstr ""
+
+#: includes/meta-boxes.php:152
+msgid "Website"
+msgstr ""
+
+#: includes/meta-boxes.php:161
+msgid "Plan details"
+msgstr ""
+
+#: includes/meta-boxes.php:167
+msgid "Price"
+msgstr ""
+
+#: includes/meta-boxes.php:168
+msgid "Include the currency, e.g. \"$490\" or \"Custom\"."
+msgstr ""
+
+#: includes/meta-boxes.php:172
+msgid "Billing period (e.g. / month)"
+msgstr ""
+
+#: includes/meta-boxes.php:176
+msgid "Features"
+msgstr ""
+
+#: includes/meta-boxes.php:177
+msgid "One feature per line. The short description is the Excerpt."
+msgstr ""
+
+#: includes/meta-boxes.php:181
+msgid "Highlight this plan"
+msgstr ""
+
+#: includes/meta-boxes.php:185
+msgid "Badge (e.g. Most popular)"
+msgstr ""
+
+#: includes/meta-boxes.php:189
+msgid "Button label"
+msgstr ""
+
+#: includes/meta-boxes.php:193
+msgid "Button link"
+msgstr ""
+
+#: includes/meta-boxes.php:281
+msgid "Default (sparkles)"
+msgstr ""
+
+#: includes/post-types.php:20
+msgid "Service"
+msgstr ""
+
+#: includes/post-types.php:22
+msgctxt "URL slug"
+msgid "services"
+msgstr ""
+
+#: includes/post-types.php:29
+msgid "Project"
+msgstr ""
+
+#: includes/post-types.php:30
+msgid "Portfolio"
+msgstr ""
+
+#: includes/post-types.php:31
+msgctxt "URL slug"
+msgid "portfolio"
+msgstr ""
+
+#: includes/post-types.php:38
+msgid "Case Study"
+msgstr ""
+
+#: includes/post-types.php:39
+msgid "Case Studies"
+msgstr ""
+
+#: includes/post-types.php:40
+msgctxt "URL slug"
+msgid "case-studies"
+msgstr ""
+
+#: includes/post-types.php:47
+msgid "Testimonial"
+msgstr ""
+
+#: includes/post-types.php:54
+msgid "Team Member"
+msgstr ""
+
+#: includes/post-types.php:55
+msgid "Team"
+msgstr ""
+
+#: includes/post-types.php:62
+msgid "FAQs"
+msgstr ""
+
+#: includes/post-types.php:68
+msgid "Pricing Plan"
+msgstr ""
+
+#: includes/post-types.php:69
+msgid "Pricing"
+msgstr ""
+
+#. translators: %s: singular post type name.
+#: includes/post-types.php:88
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#. translators: %s: singular post type name.
+#: includes/post-types.php:90
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#. translators: %s: singular post type name.
+#: includes/post-types.php:92
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#. translators: %s: singular post type name.
+#: includes/post-types.php:94
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#. translators: %s: plural post type name.
+#: includes/post-types.php:96
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#. translators: %s: plural post type name.
+#: includes/post-types.php:98
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/post-types.php:99
+msgid "Nothing found."
+msgstr ""
+
+#: includes/post-types.php:100
+msgid "Nothing found in Trash."
+msgstr ""
+
+#: includes/post-types.php:101
+msgid "Photo"
+msgstr ""
+
+#: includes/post-types.php:101
+msgid "Featured image"
+msgstr ""
+
+#: includes/post-types.php:102
+msgid "Set photo"
+msgstr ""
+
+#: includes/post-types.php:102
+msgid "Set featured image"
+msgstr ""
+
+#. translators: %s: plural post type name.
+#: includes/post-types.php:104
+#, php-format
+msgid "%s list"
+msgstr ""
+
+#: includes/post-types.php:105
+msgid "Published."
+msgstr ""
+
+#: includes/post-types.php:106
+msgid "Updated."
+msgstr ""
+
+#: includes/post-types.php:107
+msgid "Filter list"
+msgstr ""
+
+#: includes/post-types.php:108
+msgid "List navigation"
+msgstr ""
+
+#: includes/post-types.php:147
+msgid "Project Categories"
+msgstr ""
+
+#: includes/post-types.php:148
+msgid "Project Category"
+msgstr ""
+
+#: includes/post-types.php:149
+msgid "Categories"
+msgstr ""
+
+#: includes/post-types.php:150
+msgid "Add New Category"
+msgstr ""
+
+#: includes/post-types.php:151
+msgid "Edit Category"
+msgstr ""
+
+#: includes/post-types.php:152
+msgid "All Categories"
+msgstr ""
+
+#: includes/post-types.php:153
+msgid "Search Categories"
+msgstr ""
+
+#: includes/post-types.php:160
+msgctxt "URL slug"
+msgid "portfolio-category"
+msgstr ""
+
+#: includes/post-types.php:226
+msgid "Client name"
+msgstr ""
+
+#: includes/post-types.php:227
+msgid "Full name"
+msgstr ""
+
+#: includes/post-types.php:228
+msgid "Question"
+msgstr ""
+
+#: includes/post-types.php:229
+msgid "Plan name"
+msgstr ""
+
+#: includes/post-types.php:230
+msgid "Service name"
+msgstr ""
+
+#: includes/post-types.php:231
+msgid "Project title"
+msgstr ""
+
+#: includes/post-types.php:232
+msgid "Case study title"
+msgstr ""
+
+#: includes/post-types.php:249
+msgid "Details"
+msgstr ""
+
+#: includes/post-types.php:250
+msgid "Order"
+msgstr ""
+
+#: includes/post-types.php:274
+#: includes/post-types.php:288
+msgid "Highlighted"
+msgstr ""
+
+#: includes/post-types.php:279
+msgid "Video"
+msgstr ""
+
+#: includes/post-types.php:279
+msgid "Text"
+msgstr ""
+
+#: includes/settings.php:20
+msgid "Output meta description, Open Graph and schema"
+msgstr ""
+
+#: includes/settings.php:25
+msgid "Homepage meta description"
+msgstr ""
+
+#: includes/settings.php:26
+msgid "Thoughtful digital strategy, SEO, and content to help ambitious businesses build a stronger online presence and grow with clarity."
+msgstr ""
+
+#: includes/settings.php:30
+msgid "This website represents"
+msgstr ""
+
+#: includes/settings.php:33
+msgid "A person"
+msgstr ""
+
+#: includes/settings.php:34
+msgid "An organization"
+msgstr ""
+
+#: includes/settings.php:39
+msgid "Person / organization name"
+msgstr ""
+
+#: includes/settings.php:40
+msgid "Leave empty to use the site title."
+msgstr ""
+
+#: includes/settings.php:45
+msgid "Job title (person only)"
+msgstr ""
+
+#: includes/settings.php:46
+msgid "Digital Growth Partner"
+msgstr ""
+
+#: includes/settings.php:50
+msgid "Default social share image"
+msgstr ""
+
+#: includes/settings.php:51
+msgid "1200×630px. Used when a page has no featured image."
+msgstr ""
+
+#: includes/settings.php:56
+msgid "X (Twitter) username"
+msgstr ""
+
+#: includes/settings.php:57
+msgid "Without the @."
+msgstr ""
+
+#: includes/settings.php:62
+msgid "Google Analytics 4 measurement ID"
+msgstr ""
+
+#: includes/settings.php:63
+msgid "For example G-XXXXXXXXXX. Leave empty to disable. Logged-in editors are not tracked."
+msgstr ""
+
+#: includes/settings.php:68
+msgid "Remove the WordPress emoji script"
+msgstr ""
+
+#: includes/settings.php:69
+msgid "Browsers render emoji natively."
+msgstr ""
+
+#: includes/settings.php:74
+msgid "Hide the WordPress version meta tag"
+msgstr ""
+
+#: includes/settings.php:106
+msgid "SEO, Analytics & Performance"
+msgstr ""
+
+#: includes/settings.php:107
+msgid "Built-in meta tags, Open Graph and schema switch off automatically when Yoast SEO, Rank Math, SEOPress, All in One SEO, Slim SEO or The SEO Framework is active."
+msgstr ""
+
+#: blocks/section/index.js:40
+msgid "Lets menu links jump here, e.g. #services."
+msgstr ""
+
+#: blocks/section/index.js:48
+msgid "Edit the content in Appearance → Customize → Homepage Sections, or in the matching post type (Services, Portfolio, FAQs…)."
+msgstr ""
+
+#: blocks/section/block.json
+msgctxt "block title"
+msgid "Theme Section"
+msgstr ""
+
+#: blocks/section/block.json
+msgctxt "block description"
+msgid "Insert a Riaz Portfolio section (hero, about, services, portfolio, testimonials, FAQ…). Its content is managed in the Customizer and the theme's post types."
+msgstr ""
+
+#: blocks/section/block.json
+msgctxt "block keyword"
+msgid "riaz"
+msgstr ""
+
+#: blocks/section/block.json
+msgctxt "block keyword"
+msgid "section"
+msgstr ""
+
+#: blocks/section/block.json
+msgctxt "block keyword"
+msgid "hero"
+msgstr ""
+
+#: blocks/section/block.json
+msgctxt "block keyword"
+msgid "services"
+msgstr ""
+
+#: blocks/section/block.json
+msgctxt "block keyword"
+msgid "portfolio"
+msgstr ""
+
+#: blocks/section/block.json
+msgctxt "block keyword"
+msgid "testimonials"
+msgstr ""
+
+#: blocks/section/block.json
+msgctxt "block keyword"
+msgid "faq"
+msgstr ""
+
+#: blocks/section/block.json
+msgctxt "block keyword"
+msgid "pricing"
+msgstr ""
+
+#: blocks/section/block.json
+msgctxt "block keyword"
+msgid "team"
+msgstr ""

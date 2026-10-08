@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Riaz Portfolio — Documentation</title>
+<style>
+	:root { --ink:#0b1630; --soft:#56627a; --line:#e4eaf4; --surface:#f5f8fd; --primary:#1761cf; --accent:#2f80ff; --dark:#0a2a66; --darker:#050f2c; }
+	* { box-sizing: border-box; }
+	body { margin: 0; background: #fff; color: var(--ink); font: 16px/1.7 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+	header.hero { padding: 64px 24px 56px; background: linear-gradient(140deg, #0c3278 0%, var(--dark) 40%, var(--darker) 100%); color: #fff; }
+	header.hero .wrap, main .wrap { max-width: 980px; margin: 0 auto; }
+	header.hero p { max-width: 640px; color: rgb(255 255 255 / 75%); font-size: 18px; }
+	h1 { margin: 0 0 12px; font-size: clamp(34px, 5vw, 52px); letter-spacing: -0.03em; line-height: 1.1; }
+	h2 { margin: 56px 0 14px; padding-top: 8px; font-size: 28px; letter-spacing: -0.02em; border-top: 1px solid var(--line); padding-top: 40px; }
+	h3 { margin: 28px 0 8px; font-size: 19px; }
+	main { padding: 24px 24px 96px; }
+	a { color: var(--primary); }
+	code, kbd { padding: 2px 6px; border-radius: 6px; background: var(--surface); font: 0.9em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+	pre { overflow-x: auto; padding: 16px 18px; border-radius: 12px; background: var(--darker); color: #dfe8f7; font: 14px/1.6 ui-monospace, SFMono-Regular, Menlo, monospace; }
+	pre code { padding: 0; background: none; }
+	table { width: 100%; border-collapse: collapse; margin: 12px 0 8px; font-size: 15px; }
+	th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+	th { background: var(--surface); font-weight: 600; }
+	.toc { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px 24px; margin: 8px 0 0; padding: 20px 24px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); list-style: none; }
+	.toc a { text-decoration: none; font-weight: 500; }
+	.note { margin: 16px 0; padding: 14px 18px; border-left: 4px solid var(--accent); border-radius: 8px; background: var(--surface); }
+	.steps li { margin-bottom: 8px; }
+	@media (max-width: 600px) { th, td { padding: 8px; font-size: 14px; } }
+</style>
+</head>
+<body>
+<header class="hero">
+	<div class="wrap">
+		<p style="margin:0 0 8px;font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#8cc0ff">Version 1.0.0</p>
+		<h1>Riaz Portfolio — Documentation</h1>
+		<p>How to install the theme, edit every part of the site without code, use it with the block editor, Elementor or Divi, and keep it fast and secure.</p>
+	</div>
+</header>
+<main>
+<div class="wrap">
+
+<ul class="toc">
+	<li><a href="#install">1. Installation</a></li>
+	<li><a href="#homepage">2. Editing the homepage</a></li>
+	<li><a href="#content">3. Services, portfolio &amp; more</a></li>
+	<li><a href="#options">4. Theme Options</a></li>
+	<li><a href="#menus">5. Menus &amp; footer</a></li>
+	<li><a href="#pages">6. Pages, blog &amp; templates</a></li>
+	<li><a href="#builders">7. Gutenberg, Elementor &amp; Divi</a></li>
+	<li><a href="#contact">8. Contact form</a></li>
+	<li><a href="#seo">9. SEO &amp; analytics</a></li>
+	<li><a href="#performance">10. Performance</a></li>
+	<li><a href="#a11y">11. Accessibility</a></li>
+	<li><a href="#developers">12. For developers</a></li>
+	<li><a href="#faq">13. Troubleshooting</a></li>
+</ul>
+
+<h2 id="install">1. Installation</h2>
+<ol class="steps">
+	<li>In WordPress go to <strong>Appearance → Themes → Add New → Upload Theme</strong>, choose <code>riaz-portfolio.zip</code>, install and <strong>Activate</strong>.</li>
+	<li>Go to <strong>Appearance → Riaz Portfolio</strong> and click <strong>Install &amp; activate Riaz Portfolio Core</strong>. This companion plugin is bundled with the theme. It holds your content (services, projects, testimonials…) so nothing is lost if you ever change theme.</li>
+	<li>On the same screen click <strong>Import starter content</strong>. It creates the 6 services and 5 FAQs from the design, a Home and a Blog page (set in Settings → Reading), the header and footer menus, and the logo. Existing items with the same title are never overwritten, so it is safe to run twice. Tick "Sample projects…" to also get example projects, a case study and pricing plans as <em>drafts</em>.</li>
+	<li>Open <strong>Appearance → Customize</strong> and make it yours.</li>
+</ol>
+<p>Requirements: WordPress 6.6 or newer (tested up to 7.1), PHP 7.4 or newer (tested on 8.2 and 8.5).</p>
+<div class="note">Manual plugin install: if the button cannot install plugins on your host, upload <code>wp-content/themes/riaz-portfolio/plugins/riaz-portfolio-core.zip</code> in <strong>Plugins → Add New → Upload Plugin</strong>.</div>
+
+<h2 id="homepage">2. Editing the homepage</h2>
+<p>Go to <strong>Appearance → Customize → Homepage Sections</strong>. Changes preview live; click <strong>Publish</strong> to save. You can also click the blue pencil icons in the preview to jump to a section's settings.</p>
+<h3>Order &amp; visibility</h3>
+<p><strong>Section Order &amp; Visibility</strong> lists all 14 sections. Drag (or use the arrows) to reorder, untick to hide, and click the pencil to edit one. Sections without content hide themselves automatically: Portfolio stays hidden until you publish a project, Testimonials until you add a testimonial, and so on. Menu links to hidden sections are hidden too.</p>
+<table>
+	<tr><th>Section</th><th>What you edit</th><th>Where the items come from</th></tr>
+	<tr><td>Hero</td><td>Label, headline + highlighted words (this is the page H1), description, two buttons, focus points (icon + label), portrait, floating note, name badge</td><td>Customizer</td></tr>
+	<tr><td>Who I help</td><td>Label, scrolling items, speed</td><td>Customizer</td></tr>
+	<tr><td>About</td><td>Heading, lead and supporting paragraphs, checklist, photo, name/role tag, rotating badge text, button and link</td><td>Customizer</td></tr>
+	<tr><td>Statistics</td><td>Heading and up to 8 numbers (prefix, value, suffix, label). Numbers count up on scroll.</td><td>Customizer — only add verified numbers</td></tr>
+	<tr><td>Services</td><td>Heading, header link, card link text, number shown</td><td>Dashboard → Services</td></tr>
+	<tr><td>Approach / process</td><td>Heading and steps (icon, title, text). The timeline line fills as you scroll.</td><td>Customizer</td></tr>
+	<tr><td>Portfolio</td><td>Heading, number shown, category filter on/off</td><td>Dashboard → Portfolio</td></tr>
+	<tr><td>Case studies</td><td>Heading, number shown</td><td>Dashboard → Case Studies</td></tr>
+	<tr><td>Testimonials</td><td>Heading, maximum shown</td><td>Dashboard → Testimonials</td></tr>
+	<tr><td>Team</td><td>Heading, number shown</td><td>Dashboard → Team</td></tr>
+	<tr><td>Pricing</td><td>Heading and a note below the plans</td><td>Dashboard → Pricing</td></tr>
+	<tr><td>FAQ</td><td>Heading, help box, first question open or closed</td><td>Dashboard → FAQs</td></tr>
+	<tr><td>Call to action</td><td>Label, title, text, one or two buttons, photo. Also shown at the end of project, case study and service pages (can be turned off).</td><td>Customizer</td></tr>
+	<tr><td>Contact</td><td>Heading. Details and form come from Theme Options → Contact Details. Off by default — enable it in Order &amp; Visibility.</td><td>Customizer</td></tr>
+</table>
+<div class="note">Tip: buttons that point to <code>#about</code>, <code>#services</code>, <code>#faq</code>… scroll to that section. On other pages they automatically take the visitor to the homepage section. Anchors: hero <code>#top</code>, call to action <code>#contact</code>, contact section <code>#get-in-touch</code>, case studies <code>#case-studies</code>, others use their name.</div>
+
+<h2 id="content">3. Services, portfolio, testimonials &amp; more</h2>
+<p>These appear in the dashboard menu once Riaz Portfolio Core is active. Use the <strong>Order</strong> field (Page Attributes box) to control the order; lower numbers come first.</p>
+<table>
+	<tr><th>Type</th><th>Title</th><th>Fields</th></tr>
+	<tr><td>Services</td><td>Service name</td><td>Excerpt = card text. Icon, "highlight this card" (the blue card), custom "Learn more" link. If you write content in the editor, the card links to a full service page.</td></tr>
+	<tr><td>Portfolio</td><td>Project title</td><td>Featured image (4:3 looks best), excerpt, categories (drive the filter), client, services/role, year, live URL. Content is the project page.</td></tr>
+	<tr><td>Case Studies</td><td>Case study title</td><td>Featured image, excerpt, client, industry, timeline and up to three results (value + label).</td></tr>
+	<tr><td>Testimonials</td><td>Client name</td><td>Write the quote in the editor <em>or</em> paste a YouTube / Shorts link for a video testimonial. Role &amp; company, star rating, photo (or custom video thumbnail).</td></tr>
+	<tr><td>Team</td><td>Full name</td><td>Photo (4:5), role, short bio, LinkedIn, X, website, email.</td></tr>
+	<tr><td>FAQs</td><td>Question</td><td>The answer is the content.</td></tr>
+	<tr><td>Pricing</td><td>Plan name</td><td>Price (with currency), period, features (one per line), highlight, badge, button label and link. Excerpt = short description.</td></tr>
+</table>
+<div class="note">Only publish testimonials, results and numbers that are real and that you have permission to use. Sample items from the importer are saved as drafts for this reason.</div>
+
+<h2 id="options">4. Theme Options</h2>
+<p><strong>Appearance → Customize → Theme Options</strong>:</p>
+<ul>
+	<li><strong>Brand Colors</strong> — eight colors; every gradient, glow and tint follows them. The block editor palette updates too.</li>
+	<li><strong>Typography</strong> — body and heading fonts (Roboto is self-hosted; others load from Google Fonts), base size, heading weight.</li>
+	<li><strong>Header</strong> — logo width, white pill behind the logo, sticky header, header button. Upload the logo and site icon in <strong>Site Identity</strong>.</li>
+	<li><strong>Footer</strong> — brand name, description, column titles, copyright (<code>{year}</code> and <code>{site}</code> placeholders), back-to-top link, large wordmark.</li>
+	<li><strong>Contact Details</strong> — email, phone, address, availability, form options.</li>
+	<li><strong>Social Links</strong> — LinkedIn, X, Facebook, Instagram, YouTube, TikTok, GitHub, Dribbble, Behance, WhatsApp.</li>
+	<li><strong>Layout &amp; Animation</strong> — content width, section spacing, animations, custom cursor, scroll progress bar, page banner, breadcrumbs.</li>
+	<li><strong>Blog</strong> — banner text, grid or list, sidebar, share links, author box, related posts.</li>
+	<li><strong>Performance</strong> — per-block CSS loading and font preloading.</li>
+	<li><strong>SEO, Analytics &amp; Performance</strong> (from the plugin) — see section 9.</li>
+</ul>
+
+<h2 id="menus">5. Menus &amp; footer</h2>
+<p><strong>Appearance → Menus</strong> has four locations: <em>Primary menu</em> (header, up to three levels with dropdowns), <em>Footer — Column 1</em>, <em>Footer — Column 2</em> and <em>Footer — Bottom links</em> (e.g. Privacy Policy). Without a menu the header shows links to the homepage sections, column 1 shows section links and column 2 lists your services. The contact column uses your contact details.</p>
+<p>To link to a homepage section, add a <strong>Custom Link</strong> such as <code>https://yoursite.com/#services</code>. The highlight pill follows the section in view while scrolling.</p>
+
+<h2 id="pages">6. Pages, blog &amp; templates</h2>
+<p>Inner pages get a dark banner with breadcrumbs and the title (H1). In the editor sidebar the <strong>Display options</strong> box lets you hide the banner, add a subtitle and choose the header style per page.</p>
+<table>
+	<tr><th>Template</th><th>Use it for</th></tr>
+	<tr><td>Default</td><td>Normal pages: banner + readable content width. Wide and full-width blocks break out.</td></tr>
+	<tr><td>Homepage Sections</td><td>Show the Customizer sections on any page, followed by the page content.</td></tr>
+	<tr><td>Full Width (no title)</td><td>Page builders and block layouts. Header and footer stay, the content is edge to edge.</td></tr>
+	<tr><td>Blank Canvas</td><td>Landing pages with no header or footer.</td></tr>
+</table>
+<p>The homepage shows the sections when <em>Settings → Reading</em> uses "Your latest posts" or a static page with no content. If the front page has its own content (blocks, Elementor or Divi), that content is shown instead.</p>
+
+<h2 id="builders">7. Gutenberg, Elementor &amp; Divi</h2>
+<h3>Block editor</h3>
+<p>Add the <strong>Theme Section</strong> block (category "Riaz Portfolio") and choose a section in the sidebar; the preview matches the live site. The <strong>Patterns</strong> tab has a full homepage, services page, about page, contact page and an intro block. Block style variations: Group → <em>Card</em>, Heading → <em>Gradient</em>, Image → <em>Rounded &amp; elevated</em>, List → <em>Check marks</em>.</p>
+<h3>Elementor</h3>
+<p>Use the <strong>Full Width (no title)</strong> or <em>Elementor Full Width</em> template. Drag the <strong>Theme Section</strong> widget from the "Riaz Portfolio" category. Elementor Pro's Theme Builder can replace the header, footer, single and archive templates.</p>
+<h3>Divi</h3>
+<p>Install the <strong>Divi Builder</strong> plugin (the separate plugin, not the Divi theme). Choose the <strong>Full Width (no title)</strong> template. The builder is enabled on projects, case studies and services. Insert theme sections with a Code or Text module:</p>
+<pre><code>[riaz_section name="services"]
+[riaz_section name="faq" id="questions"]
+[riaz_contact_form]
+[riaz_social style="light"]
+[riaz_button label="Book a call" url="#contact" style="primary"]
+[riaz_icon name="rocket" size="24"]</code></pre>
+<p>Section names: <code>hero, marquee, about, stats, services, approach, portfolio, case_studies, testimonials, team, pricing, faq, cta, contact</code>.</p>
+
+<h2 id="contact">8. Contact form</h2>
+<p>The built-in form emails messages to <em>Send form messages to</em>, then the contact email, then the site admin email. It is protected by a nonce, a hidden honeypot field, a minimum fill time and a limit of three messages per visitor per ten minutes. Nothing is stored in the database.</p>
+<ul>
+	<li>Install an SMTP plugin (e.g. WP Mail SMTP) so emails are delivered reliably.</li>
+	<li>Prefer Contact Form 7, WPForms, Fluent Forms or Gravity Forms? Paste its shortcode in <em>Form plugin shortcode</em>.</li>
+	<li>With full-page caching, exclude the page with the form from the cache, or use a form plugin (cached security tokens expire after a day).</li>
+</ul>
+
+<h2 id="seo">9. SEO &amp; analytics</h2>
+<p>Riaz Portfolio Core prints the meta description, Open Graph and X cards, canonical links on archives and a JSON-LD schema graph: WebSite, Person or Organization (with your social profiles), WebPage, BreadcrumbList, BlogPosting, CreativeWork for projects, Article for case studies, Service and FAQPage. Edit it in <strong>Customize → Theme Options → SEO, Analytics &amp; Performance</strong>.</p>
+<p>If you install Yoast SEO, Rank Math, SEOPress, All in One SEO, Slim SEO or The SEO Framework, the built-in tags switch off automatically to avoid duplicates. Breadcrumbs, one H1 per page, semantic headings and clean permalinks (<code>/portfolio/</code>, <code>/case-studies/</code>, <code>/services/</code>) are built into the theme.</p>
+<p>Add a GA4 measurement ID (<code>G-XXXXXXXXXX</code>) to enable Google Analytics. Logged-in editors are not tracked. If you need cookie consent, use a consent plugin that supports Google Consent Mode.</p>
+
+<h2 id="performance">10. Performance</h2>
+<p>Out of the box: no jQuery on the front end, one deferred and minified script (≈5 KB gzipped), one minified stylesheet (≈14 KB gzipped), a self-hosted variable font with preload, responsive WebP images, lazy loading, the hero image preloaded with high priority, per-block CSS, and no layout shift. A local Lighthouse run scored 94 on mobile and 100 on desktop for performance, and 100 for accessibility, best practices and SEO.</p>
+<p>On your live site, to reach 90+ on PageSpeed Insights:</p>
+<ul>
+	<li>Use hosting with HTTP/2 or HTTP/3, gzip or Brotli compression and browser caching (most managed WordPress hosts do this).</li>
+	<li>Add a page cache (LiteSpeed Cache, WP Rocket, W3 Total Cache or your host's cache).</li>
+	<li>Upload images at sensible sizes; WordPress creates responsive versions automatically. An image optimizer (WebP/AVIF) helps further.</li>
+	<li>Keep the number of plugins low.</li>
+</ul>
+
+<h2 id="a11y">11. Accessibility</h2>
+<p>Skip link, landmarks, one H1 per page, keyboard-operable menus (Escape closes the mobile menu and returns focus), visible focus outlines, labelled buttons and forms, screen-reader announcements for the project filter and copy-link button, and text contrast that meets WCAG AA. Every animation respects the visitor's "reduce motion" setting, and all content is visible without JavaScript. The custom cursor only appears for mouse users and can be turned off.</p>
+<p>Please add <strong>alt text</strong> to images in the Media Library — the theme uses it automatically.</p>
+
+<h2 id="developers">12. For developers</h2>
+<h3>Structure</h3>
+<pre><code>riaz-portfolio/                 Theme (design, templates, Customizer)
+  style.css, functions.php, theme.json
+  index.php, front-page.php, single.php, page.php, archive.php, search.php, 404.php
+  header.php, footer.php, sidebar.php, comments.php, searchform.php
+  templates/                    Page templates (Homepage Sections, Full Width, Blank Canvas)
+  template-parts/sections/      One file per homepage section
+  template-parts/cards/         Service, project, case study and post cards
+  template-parts/content/       Archive, single layouts, page body, featured image, related
+  template-parts/components/    Page banner, carousel
+  template-parts/header|footer/
+  inc/                          setup, enqueue, helpers, icons, sections, template-tags, meta-boxes,
+                                customizer/ (schema + controls), compat/ (Gutenberg, Elementor, Divi),
+                                companion.php, admin/setup-page.php
+  assets/css/ (main.css + .min, editor-style.css, customizer.css, admin.css)
+  assets/js/  (main.js + .min, customizer-controls.js, customizer-preview.js)
+  assets/fonts/, assets/images/, patterns/, languages/, plugins/riaz-portfolio-core.zip
+
+riaz-portfolio-core/            Companion plugin (content and functionality)
+  includes/ post-types, meta-boxes, settings, seo, performance, contact-form,
+            shortcodes, blocks, elementor, divi, importer
+  blocks/section/               Theme Section block (no build step)</code></pre>
+<h3>Child theme</h3>
+<p>Create <code>riaz-portfolio-child</code> with <code>Template: riaz-portfolio</code>. Any template part (for example <code>template-parts/sections/about.php</code>) can be copied into the child theme and edited. Assets are loaded with <code>get_theme_file_uri()</code>, so they can be overridden too.</p>
+<h3>Adding a section</h3>
+<pre><code>add_filter( 'riaz_sections', function ( $sections ) {
+	$sections['clients'] = 'Client logos';
+	return $sections;
+} );
+// Then create template-parts/sections/clients.php in your child theme.</code></pre>
+<h3>Useful hooks</h3>
+<table>
+	<tr><th>Hook</th><th>Purpose</th></tr>
+	<tr><td><code>riaz_customizer_schema</code></td><td>Add or change Customizer options (all controls, defaults and sanitization come from this array).</td></tr>
+	<tr><td><code>riaz_sections</code></td><td>Register sections.</td></tr>
+	<tr><td><code>riaz_before_section</code> / <code>riaz_after_section</code></td><td>Output around any section.</td></tr>
+	<tr><td><code>riaz_header_is_overlay</code></td><td>Force the transparent or solid header.</td></tr>
+	<tr><td><code>riaz_banner_data</code>, <code>riaz_breadcrumb_trail</code></td><td>Change the page banner and breadcrumbs.</td></tr>
+	<tr><td><code>riaz_icon</code></td><td>Replace icon SVGs.</td></tr>
+	<tr><td><code>riaz_bundled_images</code></td><td>Change the fallback portraits.</td></tr>
+	<tr><td><code>riaz_is_builder_content</code></td><td>Mark content from another builder as full width.</td></tr>
+	<tr><td><code>riaz_core_post_type_args</code>, <code>riaz_core_schema_graph</code>, <code>riaz_core_seo_enabled</code>, <code>riaz_core_contact_recipient</code>, <code>riaz_core_contact_submitted</code></td><td>Plugin: content types, schema, SEO switch, form recipient, after a form submission.</td></tr>
+</table>
+<h3>JavaScript</h3>
+<p><code>window.RiazTheme.init(element)</code> initialises reveals, carousels, accordions, filters, counters and videos inside <code>element</code> — useful after inserting markup with AJAX. Add <code>data-reveal</code> (or <code>data-reveal="left|right"</code>) to any element for a scroll reveal, or <code>data-stagger</code> on a parent with <code>data-reveal-item</code> children.</p>
+<h3>Building assets &amp; checks</h3>
+<pre><code># minify after editing main.css / main.js
+npx esbuild riaz-portfolio/assets/css/main.css --minify --outfile=riaz-portfolio/assets/css/main.min.css
+npx esbuild riaz-portfolio/assets/js/main.js --minify --target=es2019 --outfile=riaz-portfolio/assets/js/main.min.js
+
+# coding standards (WordPress-Extra + Docs, config in phpcs.xml.dist)
+phpcs
+
+# translations
+wp i18n make-pot riaz-portfolio riaz-portfolio/languages/riaz-portfolio.pot --exclude=plugins
+wp i18n make-pot riaz-portfolio-core riaz-portfolio-core/languages/riaz-portfolio-core.pot</code></pre>
+<p>Set <code>define( 'SCRIPT_DEBUG', true );</code> in <code>wp-config.php</code> to load the unminified files while developing.</p>
+
+<h2 id="faq">13. Troubleshooting</h2>
+<h3>Portfolio or case study pages show "Page not found"</h3>
+<p>Go to <strong>Settings → Permalinks</strong> and click <strong>Save</strong> once.</p>
+<h3>A section does not appear</h3>
+<p>Check it is ticked in <em>Section Order &amp; Visibility</em>, and that it has content (for example a <em>published</em> project or testimonial). Hidden sections show a hint while you are in the Customizer.</p>
+<h3>The homepage shows my page content instead of the sections</h3>
+<p>Your front page (Settings → Reading) has content. Clear it, or assign the <em>Homepage Sections</em> template to that page.</p>
+<h3>The header is hard to read on a page</h3>
+<p>In the page editor's <strong>Display options</strong> box set <em>Header style</em> to <em>Solid</em> (or <em>Transparent</em> if the page starts with a dark section).</p>
+<h3>Contact form emails do not arrive</h3>
+<p>Install an SMTP plugin; many hosts block PHP mail.</p>
+<h3>Credits</h3>
+<p>Roboto (SIL Open Font License 1.1), Lucide icons (ISC). Portrait photos and logo belong to Riaz Ahmed. Theme and plugin are licensed GPLv2 or later.</p>
+
+</div>
+</main>
+</body>
+</html>

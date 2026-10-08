@@ -1,0 +1,2204 @@
+# Copyright (C) 2026 Riaz Ahmed
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Riaz Portfolio 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/riaz-portfolio\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-08T12:12:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: riaz-portfolio\n"
+
+#. Theme Name of the theme
+#. translators: %s: version.
+#: style.css
+#: inc/admin/setup-page.php:17
+#: inc/admin/setup-page.php:133
+#: inc/companion.php:69
+#: inc/compat/gutenberg.php:19
+msgid "Riaz Portfolio"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A modern, fast and animated portfolio theme for consultants, marketers, freelancers and agencies. Every homepage section (hero, about, services, process, portfolio, case studies, testimonials, team, statistics, pricing, FAQ, call to action and contact) is editable from the Customizer and custom post types, and can also be placed anywhere with the \"Theme Section\" Gutenberg block, Elementor widget or shortcode. Built with no jQuery on the front end, self-hosted fonts, schema markup, Open Graph tags and WCAG-friendly navigation."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Riaz Ahmed"
+msgstr ""
+
+#: 404.php:21
+msgid "This page wandered off"
+msgstr ""
+
+#: 404.php:22
+msgid "The page you are looking for may have moved or no longer exists. Try a search, or head back to the homepage."
+msgstr ""
+
+#: 404.php:25
+msgid "Back to home"
+msgstr ""
+
+#. translators: 1: comment count, 2: post title.
+#: comments.php:21
+#, php-format
+msgid "%1$s comment on “%2$s”"
+msgid_plural "%1$s comments on “%2$s”"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:41
+msgid "Comments are closed."
+msgstr ""
+
+#: header.php:20
+msgid "Skip to content"
+msgstr ""
+
+#: inc/admin/setup-page.php:16
+msgid "Riaz Portfolio Setup"
+msgstr ""
+
+#: inc/admin/setup-page.php:62
+msgid "Welcome to Riaz Portfolio!"
+msgstr ""
+
+#: inc/admin/setup-page.php:62
+msgid "Import the starter services, FAQs and menus in one click, then edit everything in the Customizer."
+msgstr ""
+
+#: inc/admin/setup-page.php:64
+#: template-parts/sections/pricing.php:59
+msgid "Get started"
+msgstr ""
+
+#: inc/admin/setup-page.php:65
+msgid "Dismiss"
+msgstr ""
+
+#: inc/admin/setup-page.php:103
+#: inc/customizer/schema.php:106
+msgid "Homepage sections"
+msgstr ""
+
+#: inc/admin/setup-page.php:103
+msgid "Edit, reorder and hide every section."
+msgstr ""
+
+#: inc/admin/setup-page.php:104
+msgid "Brand colors & fonts"
+msgstr ""
+
+#: inc/admin/setup-page.php:104
+msgid "Colors, typography and layout."
+msgstr ""
+
+#: inc/admin/setup-page.php:105
+msgid "Logo & site title"
+msgstr ""
+
+#: inc/admin/setup-page.php:105
+msgid "Upload your logo and favicon."
+msgstr ""
+
+#: inc/admin/setup-page.php:106
+msgid "Menus"
+msgstr ""
+
+#: inc/admin/setup-page.php:106
+msgid "Header and footer navigation."
+msgstr ""
+
+#: inc/admin/setup-page.php:107
+#: inc/customizer/schema.php:402
+#: inc/customizer/schema.php:407
+#: inc/customizer/schema.php:408
+#: inc/sections.php:25
+#: inc/template-tags.php:348
+#: inc/template-tags.php:403
+#: template-parts/content/single-riaz_portfolio.php:15
+#: template-parts/sections/services.php:15
+msgid "Services"
+msgstr ""
+
+#: inc/admin/setup-page.php:107
+msgid "Service cards with icons."
+msgstr ""
+
+#: inc/admin/setup-page.php:108
+#: inc/customizer/schema.php:505
+#: inc/customizer/schema.php:510
+#: inc/sections.php:27
+#: inc/template-tags.php:80
+#: template-parts/sections/portfolio.php:15
+msgid "Portfolio"
+msgstr ""
+
+#: inc/admin/setup-page.php:108
+msgid "Projects and categories."
+msgstr ""
+
+#: inc/admin/setup-page.php:109
+#: inc/customizer/schema.php:544
+#: inc/customizer/schema.php:550
+#: inc/sections.php:28
+#: template-parts/sections/case-studies.php:15
+msgid "Case studies"
+msgstr ""
+
+#: inc/admin/setup-page.php:109
+msgid "Stories with verified results."
+msgstr ""
+
+#: inc/admin/setup-page.php:110
+#: inc/customizer/schema.php:568
+#: inc/customizer/schema.php:574
+#: inc/customizer/schema.php:580
+#: inc/sections.php:29
+#: inc/template-tags.php:351
+#: template-parts/sections/testimonials.php:18
+msgid "Testimonials"
+msgstr ""
+
+#: inc/admin/setup-page.php:110
+msgid "Written or YouTube video."
+msgstr ""
+
+#: inc/admin/setup-page.php:111
+#: inc/customizer/schema.php:593
+#: inc/customizer/schema.php:598
+#: inc/sections.php:30
+#: template-parts/sections/team.php:15
+msgid "Team"
+msgstr ""
+
+#: inc/admin/setup-page.php:111
+msgid "People and social links."
+msgstr ""
+
+#: inc/admin/setup-page.php:112
+#: inc/customizer/schema.php:617
+#: inc/customizer/schema.php:622
+#: inc/sections.php:31
+#: template-parts/sections/pricing.php:15
+msgid "Pricing"
+msgstr ""
+
+#: inc/admin/setup-page.php:112
+msgid "Plans and features."
+msgstr ""
+
+#: inc/admin/setup-page.php:113
+msgid "FAQs"
+msgstr ""
+
+#: inc/admin/setup-page.php:113
+msgid "Questions and answers."
+msgstr ""
+
+#: inc/admin/setup-page.php:114
+msgid "Contact & social"
+msgstr ""
+
+#: inc/admin/setup-page.php:114
+msgid "Email, phone, form and profiles."
+msgstr ""
+
+#: inc/admin/setup-page.php:122
+msgid "Riaz Portfolio Core"
+msgstr ""
+
+#: inc/admin/setup-page.php:122
+msgid "Content types, block, widget, shortcodes, contact form and schema are available."
+msgstr ""
+
+#: inc/admin/setup-page.php:122
+msgid "Install it from the box above to unlock content types and the Theme Section block."
+msgstr ""
+
+#: inc/admin/setup-page.php:123
+msgid "Block editor (Gutenberg)"
+msgstr ""
+
+#: inc/admin/setup-page.php:123
+msgid "Block styles, patterns and brand palette available."
+msgstr ""
+
+#: inc/admin/setup-page.php:124
+msgid "Elementor"
+msgstr ""
+
+#: inc/admin/setup-page.php:124
+msgid "Theme Section widget and Theme Builder locations."
+msgstr ""
+
+#: inc/admin/setup-page.php:125
+msgid "Divi Builder"
+msgstr ""
+
+#: inc/admin/setup-page.php:125
+msgid "Builder enabled on projects, case studies and services."
+msgstr ""
+
+#: inc/admin/setup-page.php:126
+msgid "SEO plugin"
+msgstr ""
+
+#: inc/admin/setup-page.php:126
+msgid "Detected — the built-in meta tags and schema are switched off."
+msgstr ""
+
+#: inc/admin/setup-page.php:126
+msgid "None detected — Riaz Portfolio Core outputs meta tags, Open Graph and schema."
+msgstr ""
+
+#. translators: %s: version.
+#: inc/admin/setup-page.php:132
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: inc/admin/setup-page.php:134
+msgid "A fast, animated portfolio theme. Everything you see on the homepage is editable — no code required."
+msgstr ""
+
+#: inc/admin/setup-page.php:137
+msgid "Open the Customizer"
+msgstr ""
+
+#: inc/admin/setup-page.php:138
+msgid "View site"
+msgstr ""
+
+#: inc/admin/setup-page.php:143
+msgid "Starter content imported."
+msgstr ""
+
+#: inc/admin/setup-page.php:152
+msgid "1. Import starter content"
+msgstr ""
+
+#: inc/admin/setup-page.php:153
+msgid "Recreates the demo: services, FAQs, pages and menus. Existing items with the same title are left untouched, so it is safe to run again."
+msgstr ""
+
+#. translators: %s: date.
+#: inc/admin/setup-page.php:155
+#, php-format
+msgid "Last imported on %s."
+msgstr ""
+
+#: inc/admin/setup-page.php:165
+msgid "2. Make it yours"
+msgstr ""
+
+#: inc/admin/setup-page.php:178
+msgid "Page builders & plugins"
+msgstr ""
+
+#: inc/admin/setup-page.php:183
+msgid "active"
+msgstr ""
+
+#: inc/admin/setup-page.php:183
+msgid "not active"
+msgstr ""
+
+#: inc/admin/setup-page.php:190
+msgid "Use sections anywhere"
+msgstr ""
+
+#: inc/admin/setup-page.php:191
+msgid "Every homepage section can be placed on any page:"
+msgstr ""
+
+#: inc/admin/setup-page.php:193
+msgid "Block editor:"
+msgstr ""
+
+#: inc/admin/setup-page.php:193
+msgid "add the \"Theme Section\" block, or insert a pattern from the \"Riaz Portfolio\" category."
+msgstr ""
+
+#: inc/admin/setup-page.php:194
+msgid "Elementor:"
+msgstr ""
+
+#: inc/admin/setup-page.php:194
+msgid "drag the \"Theme Section\" widget from the Riaz Portfolio category."
+msgstr ""
+
+#: inc/admin/setup-page.php:195
+msgid "Divi / classic editor:"
+msgstr ""
+
+#: inc/companion.php:43
+msgid "Install the bundled <strong>Riaz Portfolio Core</strong> plugin to add services, portfolio, case studies, testimonials, team, FAQs, pricing, the contact form, SEO schema and one-click starter content. Keeping these in a plugin means your content stays safe if you ever change theme."
+msgstr ""
+
+#: inc/companion.php:49
+msgid "Install & activate Riaz Portfolio Core"
+msgstr ""
+
+#: inc/companion.php:49
+msgid "Activate Riaz Portfolio Core"
+msgstr ""
+
+#: inc/companion.php:53
+msgid "Ask a site administrator to install it."
+msgstr ""
+
+#: inc/companion.php:84
+msgid "You are not allowed to install plugins."
+msgstr ""
+
+#: inc/companion.php:92
+msgid "The plugin could not be installed automatically. Upload plugins/riaz-portfolio-core.zip from the theme folder in Plugins → Add New → Upload Plugin."
+msgstr ""
+
+#: inc/companion.php:97
+msgid "You are not allowed to activate plugins."
+msgstr ""
+
+#: inc/compat/gutenberg.php:24
+msgid "Card"
+msgstr ""
+
+#: inc/compat/gutenberg.php:25
+msgid "Gradient"
+msgstr ""
+
+#: inc/compat/gutenberg.php:26
+msgid "Rounded & elevated"
+msgstr ""
+
+#: inc/compat/gutenberg.php:27
+msgid "Check marks"
+msgstr ""
+
+#: inc/compat/gutenberg.php:78
+#: inc/customizer/schema.php:769
+#: template-parts/header/site-header.php:23
+msgid "Primary"
+msgstr ""
+
+#: inc/compat/gutenberg.php:79
+#: inc/customizer/schema.php:776
+msgid "Accent"
+msgstr ""
+
+#: inc/compat/gutenberg.php:80
+msgid "Light accent"
+msgstr ""
+
+#: inc/compat/gutenberg.php:81
+msgid "Dark"
+msgstr ""
+
+#: inc/compat/gutenberg.php:82
+msgid "Darkest"
+msgstr ""
+
+#: inc/compat/gutenberg.php:83
+#: inc/customizer/schema.php:804
+msgid "Text"
+msgstr ""
+
+#: inc/compat/gutenberg.php:84
+#: inc/customizer/schema.php:811
+msgid "Muted text"
+msgstr ""
+
+#: inc/compat/gutenberg.php:85
+msgid "Surface"
+msgstr ""
+
+#: inc/compat/gutenberg.php:97
+msgid "White"
+msgstr ""
+
+#: inc/customizer/customizer.php:98
+#: inc/customizer/schema.php:245
+msgid "Add item"
+msgstr ""
+
+#: inc/customizer/customizer.php:332
+msgid "Remove"
+msgstr ""
+
+#: inc/customizer/customizer.php:333
+msgid "Move up"
+msgstr ""
+
+#: inc/customizer/customizer.php:334
+msgid "Move down"
+msgstr ""
+
+#: inc/customizer/customizer.php:335
+msgid "Item"
+msgstr ""
+
+#: inc/customizer/customizer.php:336
+#: inc/template-tags.php:475
+msgid "Edit"
+msgstr ""
+
+#: inc/customizer/customizer.php:337
+msgid "Maximum reached"
+msgstr ""
+
+#: inc/customizer/schema.php:28
+#: inc/customizer/schema.php:464
+msgid "Icon"
+msgstr ""
+
+#: inc/customizer/schema.php:32
+#: inc/customizer/schema.php:232
+#: inc/customizer/schema.php:241
+#: inc/customizer/schema.php:390
+msgid "Label"
+msgstr ""
+
+#: inc/customizer/schema.php:41
+#: inc/customizer/schema.php:127
+#: inc/customizer/schema.php:273
+#: inc/customizer/schema.php:689
+msgid "Eyebrow label"
+msgstr ""
+
+#: inc/customizer/schema.php:46
+#: inc/customizer/schema.php:278
+#: inc/customizer/schema.php:468
+#: inc/customizer/schema.php:694
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/schema.php:51
+#: inc/customizer/schema.php:283
+#: inc/customizer/schema.php:699
+msgid "Title highlight"
+msgstr ""
+
+#: inc/customizer/schema.php:52
+msgid "Shown after the title in the accent gradient."
+msgstr ""
+
+#: inc/customizer/schema.php:57
+#: inc/customizer/schema.php:143
+#: inc/customizer/schema.php:472
+#: inc/customizer/schema.php:704
+msgid "Description"
+msgstr ""
+
+#: inc/customizer/schema.php:70
+msgid "Activate the bundled Riaz Portfolio Core plugin (Appearance → Riaz Portfolio) to add and manage these items."
+msgstr ""
+
+#. translators: %s: admin URL.
+#: inc/customizer/schema.php:78
+#, php-format
+msgid "Items are managed as posts. <a href=\"%s\" target=\"_blank\">Open the list in a new tab</a>."
+msgstr ""
+
+#. Template Name of the theme
+#: inc/customizer/schema.php:87
+msgid "Homepage Sections"
+msgstr ""
+
+#: inc/customizer/schema.php:88
+msgid "Edit, reorder and hide every section of the one-page homepage. Changes preview live."
+msgstr ""
+
+#: inc/customizer/schema.php:92
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/schema.php:93
+msgid "Brand colors, typography, header, footer, contact details, social links, layout and performance."
+msgstr ""
+
+#: inc/customizer/schema.php:102
+msgid "Section Order & Visibility"
+msgstr ""
+
+#: inc/customizer/schema.php:107
+msgid "Drag to reorder. Untick to hide. Sections without content (for example Portfolio with no projects yet) are skipped automatically."
+msgstr ""
+
+#: inc/customizer/schema.php:113
+msgid "Show these sections when the homepage displays \"Your latest posts\""
+msgstr ""
+
+#: inc/customizer/schema.php:114
+msgid "If you choose a static front page in Settings → Reading and give it content (blocks, Elementor or Divi), that content is shown instead."
+msgstr ""
+
+#: inc/customizer/schema.php:122
+#: inc/sections.php:21
+msgid "Hero"
+msgstr ""
+
+#: inc/customizer/schema.php:128
+msgid "Your partner in digital growth"
+msgstr ""
+
+#: inc/customizer/schema.php:132
+msgid "Headline"
+msgstr ""
+
+#: inc/customizer/schema.php:133
+msgid "This is the page H1."
+msgstr ""
+
+#: inc/customizer/schema.php:134
+msgid "Digital growth strategy you can"
+msgstr ""
+
+#: inc/customizer/schema.php:138
+msgid "Headline highlight"
+msgstr ""
+
+#: inc/customizer/schema.php:139
+msgid "count on"
+msgstr ""
+
+#: inc/customizer/schema.php:144
+msgid "Helping businesses make informed digital decisions through clear strategy, search visibility, and useful content."
+msgstr ""
+
+#: inc/customizer/schema.php:148
+msgid "Primary button label"
+msgstr ""
+
+#: inc/customizer/schema.php:149
+#: inc/customizer/schema.php:710
+msgid "Explore the approach"
+msgstr ""
+
+#: inc/customizer/schema.php:153
+msgid "Primary button link"
+msgstr ""
+
+#: inc/customizer/schema.php:158
+msgid "Secondary button label"
+msgstr ""
+
+#: inc/customizer/schema.php:159
+#: patterns/text-cta.php:28
+msgid "View services"
+msgstr ""
+
+#: inc/customizer/schema.php:163
+msgid "Secondary button link"
+msgstr ""
+
+#: inc/customizer/schema.php:168
+msgid "Focus points"
+msgstr ""
+
+#: inc/customizer/schema.php:171
+msgid "Add focus point"
+msgstr ""
+
+#: inc/customizer/schema.php:175
+msgid "Search visibility"
+msgstr ""
+
+#: inc/customizer/schema.php:179
+msgid "Useful content"
+msgstr ""
+
+#: inc/customizer/schema.php:183
+msgid "Clear strategy"
+msgstr ""
+
+#: inc/customizer/schema.php:189
+msgid "Portrait"
+msgstr ""
+
+#: inc/customizer/schema.php:190
+msgid "A cut-out portrait (transparent PNG/WebP) looks best. Recommended ~800×780px."
+msgstr ""
+
+#: inc/customizer/schema.php:195
+msgid "Show floating note"
+msgstr ""
+
+#: inc/customizer/schema.php:200
+msgid "Floating note title"
+msgstr ""
+
+#: inc/customizer/schema.php:201
+msgid "Growth, with purpose."
+msgstr ""
+
+#: inc/customizer/schema.php:205
+msgid "Floating note text"
+msgstr ""
+
+#: inc/customizer/schema.php:206
+msgid "Built around your goals"
+msgstr ""
+
+#: inc/customizer/schema.php:210
+msgid "Show name badge"
+msgstr ""
+
+#: inc/customizer/schema.php:215
+msgid "Name badge title"
+msgstr ""
+
+#: inc/customizer/schema.php:220
+msgid "Name badge subtitle"
+msgstr ""
+
+#: inc/customizer/schema.php:221
+#: inc/customizer/schema.php:328
+msgid "Digital Growth Partner"
+msgstr ""
+
+#: inc/customizer/schema.php:227
+msgid "Who I Help (Marquee)"
+msgstr ""
+
+#: inc/customizer/schema.php:233
+msgid "Who I help"
+msgstr ""
+
+#: inc/customizer/schema.php:237
+msgid "Scrolling items"
+msgstr ""
+
+#: inc/customizer/schema.php:247
+msgid "Small businesses"
+msgstr ""
+
+#: inc/customizer/schema.php:248
+msgid "Startups"
+msgstr ""
+
+#: inc/customizer/schema.php:249
+msgid "Online stores"
+msgstr ""
+
+#: inc/customizer/schema.php:250
+msgid "Service providers"
+msgstr ""
+
+#: inc/customizer/schema.php:251
+msgid "Personal brands"
+msgstr ""
+
+#: inc/customizer/schema.php:252
+msgid "Content creators"
+msgstr ""
+
+#: inc/customizer/schema.php:257
+msgid "Loop duration (seconds)"
+msgstr ""
+
+#: inc/customizer/schema.php:258
+msgid "Higher is slower."
+msgstr ""
+
+#: inc/customizer/schema.php:268
+#: inc/sections.php:23
+#: inc/template-tags.php:347
+#: inc/template-tags.php:402
+msgid "About"
+msgstr ""
+
+#: inc/customizer/schema.php:274
+msgid "About me"
+msgstr ""
+
+#: inc/customizer/schema.php:279
+msgid "Good growth begins with"
+msgstr ""
+
+#: inc/customizer/schema.php:284
+msgid "the right questions."
+msgstr ""
+
+#: inc/customizer/schema.php:288
+msgid "Lead paragraph"
+msgstr ""
+
+#: inc/customizer/schema.php:289
+msgid "I'm Riaz Ahmed. I believe the strongest digital presence is built with intention, not noise. My focus is helping businesses make sense of their opportunities, show up more clearly online, and take the next step with confidence."
+msgstr ""
+
+#: inc/customizer/schema.php:293
+msgid "Supporting paragraph"
+msgstr ""
+
+#: inc/customizer/schema.php:294
+msgid "From search visibility to content direction, the work starts by understanding your audience and ends with a plan you can actually move forward with."
+msgstr ""
+
+#: inc/customizer/schema.php:298
+msgid "Checklist"
+msgstr ""
+
+#: inc/customizer/schema.php:302
+msgid "Point"
+msgstr ""
+
+#: inc/customizer/schema.php:306
+msgid "Add point"
+msgstr ""
+
+#: inc/customizer/schema.php:308
+msgid "Goal-led priorities"
+msgstr ""
+
+#: inc/customizer/schema.php:309
+msgid "Search-first thinking"
+msgstr ""
+
+#: inc/customizer/schema.php:310
+msgid "People-first content"
+msgstr ""
+
+#: inc/customizer/schema.php:311
+msgid "Measurable next steps"
+msgstr ""
+
+#: inc/customizer/schema.php:316
+#: inc/customizer/schema.php:735
+msgid "Photo"
+msgstr ""
+
+#: inc/customizer/schema.php:317
+msgid "Portrait orientation (4:5) works best, e.g. 880×1100px."
+msgstr ""
+
+#: inc/customizer/schema.php:322
+msgid "Photo name tag"
+msgstr ""
+
+#: inc/customizer/schema.php:327
+msgid "Photo role tag"
+msgstr ""
+
+#: inc/customizer/schema.php:332
+msgid "Show rotating badge"
+msgstr ""
+
+#: inc/customizer/schema.php:337
+msgid "Rotating badge text"
+msgstr ""
+
+#: inc/customizer/schema.php:338
+msgid "Around 40 characters fits the circle best."
+msgstr ""
+
+#: inc/customizer/schema.php:339
+msgid "DIGITAL GROWTH • SEO • CONTENT • STRATEGY •"
+msgstr ""
+
+#: inc/customizer/schema.php:343
+#: inc/customizer/schema.php:709
+msgid "Button label"
+msgstr ""
+
+#: inc/customizer/schema.php:344
+msgid "How I work"
+msgstr ""
+
+#: inc/customizer/schema.php:348
+#: inc/customizer/schema.php:714
+msgid "Button link"
+msgstr ""
+
+#: inc/customizer/schema.php:353
+msgid "Text link label"
+msgstr ""
+
+#: inc/customizer/schema.php:354
+msgid "See services"
+msgstr ""
+
+#: inc/customizer/schema.php:358
+msgid "Text link"
+msgstr ""
+
+#: inc/customizer/schema.php:365
+#: inc/customizer/schema.php:374
+#: inc/sections.php:24
+#: template-parts/sections/stats.php:22
+msgid "Statistics"
+msgstr ""
+
+#: inc/customizer/schema.php:366
+msgid "Only add numbers you can verify. The section is hidden until at least one statistic exists."
+msgstr ""
+
+#: inc/customizer/schema.php:370
+msgid "By the numbers"
+msgstr ""
+
+#: inc/customizer/schema.php:370
+msgid "Progress you can"
+msgstr ""
+
+#: inc/customizer/schema.php:370
+msgid "measure"
+msgstr ""
+
+#: inc/customizer/schema.php:378
+msgid "Number (e.g. 120 or 4.9)"
+msgstr ""
+
+#: inc/customizer/schema.php:382
+msgid "Prefix (e.g. $)"
+msgstr ""
+
+#: inc/customizer/schema.php:386
+msgid "Suffix (e.g. + or %)"
+msgstr ""
+
+#: inc/customizer/schema.php:394
+msgid "Add statistic"
+msgstr ""
+
+#: inc/customizer/schema.php:409
+msgid "offered"
+msgstr ""
+
+#: inc/customizer/schema.php:410
+msgid "Practical digital thinking tailored to meet your unique needs and goals."
+msgstr ""
+
+#: inc/customizer/schema.php:413
+msgid "Service cards"
+msgstr ""
+
+#: inc/customizer/schema.php:416
+msgid "Header link label"
+msgstr ""
+
+#: inc/customizer/schema.php:417
+msgid "Discuss your goals"
+msgstr ""
+
+#: inc/customizer/schema.php:421
+msgid "Header link"
+msgstr ""
+
+#: inc/customizer/schema.php:426
+msgid "Card link label"
+msgstr ""
+
+#: inc/customizer/schema.php:427
+msgid "Learn more"
+msgstr ""
+
+#: inc/customizer/schema.php:431
+msgid "Default card link"
+msgstr ""
+
+#: inc/customizer/schema.php:432
+msgid "Used when a service has no page content and no custom link."
+msgstr ""
+
+#: inc/customizer/schema.php:437
+msgid "Number of services"
+msgstr ""
+
+#: inc/customizer/schema.php:447
+msgid "Approach / Process"
+msgstr ""
+
+#: inc/customizer/schema.php:452
+msgid "A considered approach"
+msgstr ""
+
+#: inc/customizer/schema.php:453
+msgid "Less guesswork."
+msgstr ""
+
+#: inc/customizer/schema.php:454
+msgid "More direction."
+msgstr ""
+
+#: inc/customizer/schema.php:455
+msgid "A straightforward process keeps the work focused, collaborative, and connected to what success means for you."
+msgstr ""
+
+#: inc/customizer/schema.php:460
+msgid "Steps"
+msgstr ""
+
+#: inc/customizer/schema.php:476
+msgid "Add step"
+msgstr ""
+
+#: inc/customizer/schema.php:480
+msgid "Understand"
+msgstr ""
+
+#: inc/customizer/schema.php:481
+msgid "Get clear on your audience, goals, and what is holding growth back."
+msgstr ""
+
+#: inc/customizer/schema.php:485
+msgid "Prioritize"
+msgstr ""
+
+#: inc/customizer/schema.php:486
+msgid "Find the highest-impact opportunities and shape a focused roadmap."
+msgstr ""
+
+#: inc/customizer/schema.php:490
+msgid "Improve"
+msgstr ""
+
+#: inc/customizer/schema.php:491
+msgid "Put thoughtful, measurable improvements into action, step by step."
+msgstr ""
+
+#: inc/customizer/schema.php:495
+msgid "Learn"
+msgstr ""
+
+#: inc/customizer/schema.php:496
+msgid "Review what is working, share the insight, and keep building momentum."
+msgstr ""
+
+#: inc/customizer/schema.php:511
+msgid "Selected"
+msgstr ""
+
+#: inc/customizer/schema.php:512
+msgid "work"
+msgstr ""
+
+#: inc/customizer/schema.php:513
+msgid "A look at recent projects and the thinking behind them."
+msgstr ""
+
+#: inc/customizer/schema.php:516
+msgid "Projects"
+msgstr ""
+
+#: inc/customizer/schema.php:519
+msgid "Number of projects"
+msgstr ""
+
+#: inc/customizer/schema.php:526
+msgid "Show category filter"
+msgstr ""
+
+#: inc/customizer/schema.php:531
+#: inc/customizer/schema.php:560
+msgid "\"View all\" label"
+msgstr ""
+
+#: inc/customizer/schema.php:532
+msgid "View all projects"
+msgstr ""
+
+#: inc/customizer/schema.php:539
+msgid "Case Studies"
+msgstr ""
+
+#: inc/customizer/schema.php:545
+msgid "Stories of"
+msgstr ""
+
+#: inc/customizer/schema.php:546
+msgid "steady growth"
+msgstr ""
+
+#: inc/customizer/schema.php:547
+msgid "How clear strategy turned into practical, measurable progress."
+msgstr ""
+
+#: inc/customizer/schema.php:553
+msgid "Number of case studies"
+msgstr ""
+
+#: inc/customizer/schema.php:561
+msgid "All case studies"
+msgstr ""
+
+#: inc/customizer/schema.php:569
+msgid "Only publish real testimonials you have permission to use. Video testimonials use YouTube and load only when played."
+msgstr ""
+
+#: inc/customizer/schema.php:575
+msgid "Hear what clients"
+msgstr ""
+
+#: inc/customizer/schema.php:576
+msgid "are saying"
+msgstr ""
+
+#: inc/customizer/schema.php:577
+msgid "Real conversations about working together."
+msgstr ""
+
+#: inc/customizer/schema.php:583
+msgid "Maximum testimonials"
+msgstr ""
+
+#: inc/customizer/schema.php:599
+msgid "The people"
+msgstr ""
+
+#: inc/customizer/schema.php:600
+msgid "behind the work"
+msgstr ""
+
+#: inc/customizer/schema.php:601
+msgid "A small, focused team that cares about doing things properly."
+msgstr ""
+
+#: inc/customizer/schema.php:604
+msgid "Team members"
+msgstr ""
+
+#: inc/customizer/schema.php:607
+msgid "Number of members"
+msgstr ""
+
+#: inc/customizer/schema.php:623
+msgid "Simple, transparent"
+msgstr ""
+
+#: inc/customizer/schema.php:624
+msgid "packages"
+msgstr ""
+
+#: inc/customizer/schema.php:625
+msgid "Choose a starting point. Every engagement is shaped around your goals."
+msgstr ""
+
+#: inc/customizer/schema.php:628
+msgid "Pricing plans"
+msgstr ""
+
+#: inc/customizer/schema.php:631
+msgid "Note below the plans"
+msgstr ""
+
+#: inc/customizer/schema.php:639
+#: inc/customizer/schema.php:644
+#: inc/sections.php:32
+#: inc/template-tags.php:352
+#: inc/template-tags.php:405
+#: template-parts/sections/faq.php:15
+msgid "FAQ"
+msgstr ""
+
+#: inc/customizer/schema.php:645
+msgid "Frequently"
+msgstr ""
+
+#: inc/customizer/schema.php:646
+msgid "asked questions"
+msgstr ""
+
+#: inc/customizer/schema.php:647
+msgid "Quick answers to common questions about working together."
+msgstr ""
+
+#: inc/customizer/schema.php:650
+msgid "Questions"
+msgstr ""
+
+#: inc/customizer/schema.php:653
+msgid "Help box title"
+msgstr ""
+
+#: inc/customizer/schema.php:654
+msgid "Still have a question?"
+msgstr ""
+
+#: inc/customizer/schema.php:658
+msgid "Help box link label"
+msgstr ""
+
+#: inc/customizer/schema.php:659
+msgid "Let's talk"
+msgstr ""
+
+#: inc/customizer/schema.php:663
+msgid "Help box link"
+msgstr ""
+
+#: inc/customizer/schema.php:668
+msgid "Open the first question by default"
+msgstr ""
+
+#: inc/customizer/schema.php:673
+msgid "Maximum questions"
+msgstr ""
+
+#: inc/customizer/schema.php:683
+msgid "Call To Action"
+msgstr ""
+
+#: inc/customizer/schema.php:684
+msgid "The closing banner. It also appears at the end of single project, case study and service pages."
+msgstr ""
+
+#: inc/customizer/schema.php:690
+msgid "Your next chapter"
+msgstr ""
+
+#: inc/customizer/schema.php:695
+msgid "Ready to grow"
+msgstr ""
+
+#: inc/customizer/schema.php:700
+msgid "with purpose?"
+msgstr ""
+
+#: inc/customizer/schema.php:705
+msgid "Let's start with a conversation about what you're building and where you want to take it."
+msgstr ""
+
+#: inc/customizer/schema.php:715
+msgid "Tip: use mailto:you@example.com or a booking link."
+msgstr ""
+
+#: inc/customizer/schema.php:720
+msgid "Second button label (optional)"
+msgstr ""
+
+#: inc/customizer/schema.php:725
+msgid "Second button link"
+msgstr ""
+
+#: inc/customizer/schema.php:730
+msgid "Show photo"
+msgstr ""
+
+#: inc/customizer/schema.php:736
+msgid "Defaults to the hero portrait."
+msgstr ""
+
+#: inc/customizer/schema.php:741
+msgid "Show on single project, case study and service pages"
+msgstr ""
+
+#: inc/customizer/schema.php:748
+msgid "Contact Section"
+msgstr ""
+
+#: inc/customizer/schema.php:749
+msgid "Contact details and a form. Enable it under Section Order & Visibility. Details come from Theme Options → Contact Details."
+msgstr ""
+
+#: inc/customizer/schema.php:754
+#: template-parts/footer/site-footer.php:54
+msgid "Get in touch"
+msgstr ""
+
+#: inc/customizer/schema.php:755
+msgid "Let's start a"
+msgstr ""
+
+#: inc/customizer/schema.php:756
+msgid "conversation"
+msgstr ""
+
+#: inc/customizer/schema.php:757
+msgid "Tell me a little about your business and where you want to take it."
+msgstr ""
+
+#: inc/customizer/schema.php:765
+msgid "Brand Colors"
+msgstr ""
+
+#: inc/customizer/schema.php:783
+msgid "Light accent (on dark backgrounds)"
+msgstr ""
+
+#: inc/customizer/schema.php:790
+msgid "Dark (hero, process)"
+msgstr ""
+
+#: inc/customizer/schema.php:797
+msgid "Darkest (footer, gradients)"
+msgstr ""
+
+#: inc/customizer/schema.php:818
+msgid "Section background tint"
+msgstr ""
+
+#: inc/customizer/schema.php:827
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/schema.php:831
+msgid "Body font"
+msgstr ""
+
+#: inc/customizer/schema.php:832
+msgid "Roboto is self-hosted. Other fonts load from Google Fonts."
+msgstr ""
+
+#: inc/customizer/schema.php:838
+msgid "Heading font"
+msgstr ""
+
+#: inc/customizer/schema.php:840
+msgid "Same as body"
+msgstr ""
+
+#: inc/customizer/schema.php:844
+msgid "Base font size (px)"
+msgstr ""
+
+#: inc/customizer/schema.php:852
+msgid "Heading weight"
+msgstr ""
+
+#: inc/customizer/schema.php:855
+msgid "Medium (500)"
+msgstr ""
+
+#: inc/customizer/schema.php:856
+msgid "Semi-bold (600)"
+msgstr ""
+
+#: inc/customizer/schema.php:857
+msgid "Bold (700)"
+msgstr ""
+
+#: inc/customizer/schema.php:858
+msgid "Extra-bold (800)"
+msgstr ""
+
+#: inc/customizer/schema.php:865
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/schema.php:869
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/schema.php:870
+msgid "Upload your logo in Site Identity. Without a logo the site title is shown."
+msgstr ""
+
+#: inc/customizer/schema.php:874
+msgid "Logo width (px)"
+msgstr ""
+
+#: inc/customizer/schema.php:882
+msgid "White pill behind the logo"
+msgstr ""
+
+#: inc/customizer/schema.php:883
+msgid "Keeps dark logos readable over the dark hero."
+msgstr ""
+
+#: inc/customizer/schema.php:888
+msgid "Sticky header"
+msgstr ""
+
+#: inc/customizer/schema.php:893
+msgid "Show header button"
+msgstr ""
+
+#: inc/customizer/schema.php:898
+msgid "Header button label"
+msgstr ""
+
+#: inc/customizer/schema.php:899
+#: inc/sections.php:34
+msgid "Contact"
+msgstr ""
+
+#: inc/customizer/schema.php:903
+msgid "Header button link"
+msgstr ""
+
+#: inc/customizer/schema.php:910
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/schema.php:914
+msgid "Footer brand name"
+msgstr ""
+
+#: inc/customizer/schema.php:915
+msgid "Leave empty to use the site title."
+msgstr ""
+
+#: inc/customizer/schema.php:920
+msgid "Footer description"
+msgstr ""
+
+#: inc/customizer/schema.php:921
+msgid "Your partner in digital growth. Strategy, search visibility, and useful content, built with intention."
+msgstr ""
+
+#: inc/customizer/schema.php:925
+msgid "Column 1 title"
+msgstr ""
+
+#: inc/customizer/schema.php:926
+msgid "Links come from the \"Footer — Column 1\" menu."
+msgstr ""
+
+#: inc/customizer/schema.php:927
+msgid "Explore"
+msgstr ""
+
+#: inc/customizer/schema.php:931
+msgid "Column 2 title"
+msgstr ""
+
+#: inc/customizer/schema.php:932
+msgid "Links come from the \"Footer — Column 2\" menu, or your services."
+msgstr ""
+
+#: inc/customizer/schema.php:933
+msgid "Focus"
+msgstr ""
+
+#: inc/customizer/schema.php:937
+msgid "Contact column title"
+msgstr ""
+
+#: inc/customizer/schema.php:938
+msgid "Connect"
+msgstr ""
+
+#: inc/customizer/schema.php:942
+msgid "Copyright text"
+msgstr ""
+
+#: inc/customizer/schema.php:943
+msgid "Use {year} and {site} as placeholders."
+msgstr ""
+
+#: inc/customizer/schema.php:944
+msgid "© {year} {site}. All rights reserved."
+msgstr ""
+
+#: inc/customizer/schema.php:948
+msgid "Show \"Back to top\" link"
+msgstr ""
+
+#: inc/customizer/schema.php:953
+msgid "Show large wordmark"
+msgstr ""
+
+#: inc/customizer/schema.php:958
+msgid "Wordmark text"
+msgstr ""
+
+#: inc/customizer/schema.php:959
+msgid "Leave empty to use the brand name."
+msgstr ""
+
+#: inc/customizer/schema.php:966
+msgid "Contact Details"
+msgstr ""
+
+#: inc/customizer/schema.php:970
+#: template-parts/sections/contact.php:25
+#: template-parts/sections/team.php:44
+msgid "Email"
+msgstr ""
+
+#: inc/customizer/schema.php:975
+#: template-parts/sections/contact.php:31
+msgid "Phone"
+msgstr ""
+
+#: inc/customizer/schema.php:980
+msgid "Address / location"
+msgstr ""
+
+#: inc/customizer/schema.php:985
+#: template-parts/sections/contact.php:43
+msgid "Availability"
+msgstr ""
+
+#: inc/customizer/schema.php:990
+msgid "Form plugin shortcode (optional)"
+msgstr ""
+
+#: inc/customizer/schema.php:991
+msgid "Paste a Contact Form 7, WPForms, Fluent Forms or Gravity Forms shortcode to use it instead of the built-in form (which needs the Riaz Portfolio Core plugin)."
+msgstr ""
+
+#: inc/customizer/schema.php:996
+msgid "Use the built-in contact form"
+msgstr ""
+
+#: inc/customizer/schema.php:1001
+msgid "Send form messages to"
+msgstr ""
+
+#: inc/customizer/schema.php:1002
+msgid "Defaults to the contact email, then the site admin email."
+msgstr ""
+
+#: inc/customizer/schema.php:1007
+msgid "Note under the form"
+msgstr ""
+
+#: inc/customizer/schema.php:1008
+msgid "Your details are only used to reply to your message."
+msgstr ""
+
+#: inc/customizer/schema.php:1014
+msgid "Social Links"
+msgstr ""
+
+#: inc/customizer/schema.php:1015
+msgid "Profiles appear in the footer and contact section, and are added to the schema \"sameAs\" list."
+msgstr ""
+
+#: inc/customizer/schema.php:1020
+msgid "Layout & Animation"
+msgstr ""
+
+#: inc/customizer/schema.php:1024
+msgid "Content width (px)"
+msgstr ""
+
+#: inc/customizer/schema.php:1032
+msgid "Section spacing"
+msgstr ""
+
+#: inc/customizer/schema.php:1035
+msgid "Compact"
+msgstr ""
+
+#: inc/customizer/schema.php:1036
+msgid "Normal"
+msgstr ""
+
+#: inc/customizer/schema.php:1037
+msgid "Spacious"
+msgstr ""
+
+#: inc/customizer/schema.php:1042
+msgid "Enable animations"
+msgstr ""
+
+#: inc/customizer/schema.php:1043
+msgid "Scroll reveals, floating cards, marquee and glows. Visitors who prefer reduced motion never see them."
+msgstr ""
+
+#: inc/customizer/schema.php:1048
+msgid "Custom animated cursor"
+msgstr ""
+
+#: inc/customizer/schema.php:1049
+msgid "Desktop mouse users only."
+msgstr ""
+
+#: inc/customizer/schema.php:1054
+msgid "Scroll progress bar"
+msgstr ""
+
+#: inc/customizer/schema.php:1059
+msgid "Show the page banner on inner pages"
+msgstr ""
+
+#: inc/customizer/schema.php:1060
+msgid "Can also be turned off per page in the editor."
+msgstr ""
+
+#: inc/customizer/schema.php:1065
+msgid "Show breadcrumbs"
+msgstr ""
+
+#: inc/customizer/schema.php:1072
+#: inc/template-tags.php:31
+#: inc/template-tags.php:174
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/schema.php:1076
+msgid "Blog banner label"
+msgstr ""
+
+#: inc/customizer/schema.php:1077
+msgid "Insights"
+msgstr ""
+
+#: inc/customizer/schema.php:1081
+msgid "Blog banner description"
+msgstr ""
+
+#: inc/customizer/schema.php:1082
+msgid "Notes on digital strategy, search visibility, and content that connects."
+msgstr ""
+
+#: inc/customizer/schema.php:1086
+msgid "Archive layout"
+msgstr ""
+
+#: inc/customizer/schema.php:1089
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer/schema.php:1090
+msgid "List"
+msgstr ""
+
+#: inc/customizer/schema.php:1095
+msgid "Show sidebar on blog pages"
+msgstr ""
+
+#: inc/customizer/schema.php:1096
+msgid "Uses the \"Blog Sidebar\" widget area when it has widgets."
+msgstr ""
+
+#: inc/customizer/schema.php:1101
+msgid "Show share links on posts"
+msgstr ""
+
+#: inc/customizer/schema.php:1106
+msgid "Show author box on posts"
+msgstr ""
+
+#: inc/customizer/schema.php:1111
+msgid "Show related posts"
+msgstr ""
+
+#: inc/customizer/schema.php:1118
+msgid "Performance"
+msgstr ""
+
+#: inc/customizer/schema.php:1122
+msgid "Load block styles only for blocks on the page"
+msgstr ""
+
+#: inc/customizer/schema.php:1127
+msgid "Preload the main font file"
+msgstr ""
+
+#: inc/customizer/schema.php:1197
+msgid "(self-hosted)"
+msgstr ""
+
+#: inc/customizer/schema.php:1201
+msgid "System UI (no download)"
+msgstr ""
+
+#. translators: %s: social network name.
+#: inc/helpers.php:411
+#, php-format
+msgid "%s (opens in a new tab)"
+msgstr ""
+
+#: inc/helpers.php:541
+msgid "Only visible while customizing."
+msgstr ""
+
+#: inc/meta-boxes.php:24
+msgid "Display options"
+msgstr ""
+
+#: inc/meta-boxes.php:31
+msgid "Hide the page banner (title area)"
+msgstr ""
+
+#: inc/meta-boxes.php:35
+msgid "Banner subtitle"
+msgstr ""
+
+#: inc/meta-boxes.php:39
+msgid "Header style"
+msgstr ""
+
+#: inc/meta-boxes.php:40
+msgid "\"Transparent\" suits pages that start with a dark section."
+msgstr ""
+
+#: inc/meta-boxes.php:42
+msgid "Automatic"
+msgstr ""
+
+#: inc/meta-boxes.php:43
+msgid "Transparent"
+msgstr ""
+
+#: inc/meta-boxes.php:44
+msgid "Solid"
+msgstr ""
+
+#: inc/meta-boxes.php:133
+msgid "Default (sparkles)"
+msgstr ""
+
+#: inc/sections.php:22
+msgid "Who I help (marquee)"
+msgstr ""
+
+#: inc/sections.php:26
+msgid "Approach / process"
+msgstr ""
+
+#: inc/sections.php:33
+msgid "Call to action"
+msgstr ""
+
+#: inc/setup.php:46
+msgid "Primary menu"
+msgstr ""
+
+#: inc/setup.php:47
+msgid "Footer — Column 1"
+msgstr ""
+
+#: inc/setup.php:48
+msgid "Footer — Column 2"
+msgstr ""
+
+#: inc/setup.php:49
+msgid "Footer — Bottom links"
+msgstr ""
+
+#: inc/setup.php:73
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/setup.php:75
+msgid "Shown on blog pages when enabled in Theme Options → Blog."
+msgstr ""
+
+#: inc/setup.php:95
+msgid "Card (4:3)"
+msgstr ""
+
+#: inc/setup.php:96
+msgid "Portrait (4:5)"
+msgstr ""
+
+#: inc/setup.php:97
+msgid "Wide (16:9)"
+msgstr ""
+
+#: inc/template-tags.php:18
+#: inc/template-tags.php:345
+msgid "Home"
+msgstr ""
+
+#. translators: %s: search query.
+#: inc/template-tags.php:105
+#, php-format
+msgid "Search: %s"
+msgstr ""
+
+#: inc/template-tags.php:120
+msgid "Page not found"
+msgstr ""
+
+#: inc/template-tags.php:144
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/template-tags.php:195
+msgid "Search results"
+msgstr ""
+
+#. translators: %s: search query.
+#: inc/template-tags.php:197
+#, php-format
+msgid "Results for “%s”"
+msgstr ""
+
+#: inc/template-tags.php:203
+#: template-parts/content/single-riaz_portfolio.php:17
+msgid "Category"
+msgstr ""
+
+#: inc/template-tags.php:205
+msgid "Tag"
+msgstr ""
+
+#: inc/template-tags.php:207
+msgid "Author"
+msgstr ""
+
+#: inc/template-tags.php:221
+msgid "Archive"
+msgstr ""
+
+#. translators: %d: minutes.
+#: inc/template-tags.php:247
+#: template-parts/components/page-banner.php:34
+#, php-format
+msgid "%d min read"
+msgid_plural "%d min read"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:300
+msgid "Share"
+msgstr ""
+
+#. translators: %s: network name.
+#: inc/template-tags.php:309
+#, php-format
+msgid "Share on %s (opens in a new tab)"
+msgstr ""
+
+#: inc/template-tags.php:316
+msgid "Link copied"
+msgstr ""
+
+#: inc/template-tags.php:318
+msgid "Copy link"
+msgstr ""
+
+#: inc/template-tags.php:333
+msgid "Previous page"
+msgstr ""
+
+#: inc/template-tags.php:334
+msgid "Next page"
+msgstr ""
+
+#: inc/template-tags.php:335
+#: template-parts/content/page-body.php:17
+#: template-parts/content/single.php:39
+msgid "Page"
+msgstr ""
+
+#: inc/template-tags.php:349
+#: inc/template-tags.php:404
+msgid "Approach"
+msgstr ""
+
+#: inc/template-tags.php:350
+msgid "Work"
+msgstr ""
+
+#: inc/template-tags.php:479
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:524
+msgid "Project categories"
+msgstr ""
+
+#: inc/template-tags.php:529
+#: template-parts/sections/portfolio.php:45
+msgid "All"
+msgstr ""
+
+#: patterns/text-cta.php
+msgctxt "Pattern title"
+msgid "Intro text with buttons"
+msgstr ""
+
+#: patterns/text-cta.php
+msgctxt "Pattern description"
+msgid "A heading, paragraph and two buttons built from core blocks (fully editable inline)."
+msgstr ""
+
+#: patterns/text-cta.php:17
+msgid "Clear strategy. Steady growth."
+msgstr ""
+
+#: patterns/text-cta.php:20
+msgid "Write a short introduction here. Explain who you help, what you do for them and what they can expect from working with you."
+msgstr ""
+
+#: patterns/text-cta.php:25
+msgid "Start a conversation"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:14
+msgid "Search…"
+msgstr ""
+
+#: searchform.php:15
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:14
+msgid "Sidebar"
+msgstr ""
+
+#: template-parts/cards/case-study.php:32
+msgid "Read case study"
+msgstr ""
+
+#: template-parts/cards/post.php:22
+msgid "Featured"
+msgstr ""
+
+#. translators: %s: service name.
+#: template-parts/cards/service.php:31
+#, php-format
+msgid "about %s"
+msgstr ""
+
+#: template-parts/components/carousel.php:27
+#: template-parts/content/single.php:76
+msgid "Previous"
+msgstr ""
+
+#: template-parts/components/carousel.php:28
+#: template-parts/content/single.php:77
+msgid "Next"
+msgstr ""
+
+#: template-parts/content/none.php:11
+msgid "Nothing found"
+msgstr ""
+
+#: template-parts/content/none.php:13
+msgid "Nothing matched your search. Try different keywords."
+msgstr ""
+
+#. translators: %s: new post URL.
+#: template-parts/content/none.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content/none.php:25
+msgid "There is nothing here yet. Try searching instead."
+msgstr ""
+
+#: template-parts/content/related.php:24
+msgid "Keep reading"
+msgstr ""
+
+#: template-parts/content/related.php:28
+msgid "More projects"
+msgstr ""
+
+#: template-parts/content/related.php:32
+msgid "More case studies"
+msgstr ""
+
+#: template-parts/content/related.php:41
+msgid "Other services"
+msgstr ""
+
+#: template-parts/content/single-riaz_case_study.php:13
+#: template-parts/content/single-riaz_portfolio.php:14
+msgid "Client"
+msgstr ""
+
+#: template-parts/content/single-riaz_case_study.php:14
+msgid "Industry"
+msgstr ""
+
+#: template-parts/content/single-riaz_case_study.php:15
+msgid "Timeline"
+msgstr ""
+
+#: template-parts/content/single-riaz_case_study.php:38
+msgid "Results"
+msgstr ""
+
+#: template-parts/content/single-riaz_case_study.php:50
+msgid "Previous case study"
+msgstr ""
+
+#: template-parts/content/single-riaz_case_study.php:51
+msgid "Next case study"
+msgstr ""
+
+#: template-parts/content/single-riaz_portfolio.php:16
+msgid "Year"
+msgstr ""
+
+#: template-parts/content/single-riaz_portfolio.php:37
+msgid "Live project"
+msgstr ""
+
+#: template-parts/content/single-riaz_portfolio.php:37
+msgid "Visit site"
+msgstr ""
+
+#: template-parts/content/single-riaz_portfolio.php:47
+msgid "Previous project"
+msgstr ""
+
+#: template-parts/content/single-riaz_portfolio.php:48
+msgid "Next project"
+msgstr ""
+
+#: template-parts/content/single.php:51
+msgid "Tags"
+msgstr ""
+
+#: template-parts/content/single.php:64
+msgid "About the author"
+msgstr ""
+
+#: template-parts/footer/site-footer.php:69
+msgid "Legal"
+msgstr ""
+
+#: template-parts/footer/site-footer.php:78
+msgid "Back to top"
+msgstr ""
+
+#: template-parts/header/site-header.php:46
+#: template-parts/header/site-header.php:47
+msgid "Open menu"
+msgstr ""
+
+#: template-parts/header/site-header.php:46
+msgid "Close menu"
+msgstr ""
+
+#: template-parts/header/site-header.php:53
+msgid "Mobile"
+msgstr ""
+
+#. translators: %s: person name.
+#: template-parts/sections/about.php:25
+#, php-format
+msgid "Portrait of %s"
+msgstr ""
+
+#. translators: %s: step number, e.g. 01.
+#: template-parts/sections/approach.php:49
+#, php-format
+msgid "Step %s"
+msgstr ""
+
+#: template-parts/sections/case-studies.php:16
+msgid "Publish a case study to show this section."
+msgstr ""
+
+#: template-parts/sections/case-studies.php:18
+msgid "Add a case study"
+msgstr ""
+
+#: template-parts/sections/contact.php:37
+msgid "Location"
+msgstr ""
+
+#: template-parts/sections/contact.php:56
+msgid "The quickest way to reach me is by email."
+msgstr ""
+
+#: template-parts/sections/contact.php:57
+msgid "Send an email"
+msgstr ""
+
+#: template-parts/sections/contact.php:60
+msgid "Activate the Riaz Portfolio Core plugin for the built-in form, add a form shortcode, or set a contact email in Theme Options → Contact Details."
+msgstr ""
+
+#: template-parts/sections/faq.php:16
+msgid "Add a question to show this section, or import the starter content."
+msgstr ""
+
+#: template-parts/sections/faq.php:18
+msgid "Add a question"
+msgstr ""
+
+#: template-parts/sections/portfolio.php:16
+msgid "Publish a project to show this section."
+msgstr ""
+
+#: template-parts/sections/portfolio.php:18
+msgid "Add a project"
+msgstr ""
+
+#: template-parts/sections/portfolio.php:44
+msgid "Filter projects by category"
+msgstr ""
+
+#. translators: %d: number of projects.
+#: template-parts/sections/portfolio.php:50
+#, php-format
+msgid "%d projects shown"
+msgstr ""
+
+#: template-parts/sections/pricing.php:16
+msgid "Add a pricing plan to show this section."
+msgstr ""
+
+#: template-parts/sections/pricing.php:18
+msgid "Add a plan"
+msgstr ""
+
+#: template-parts/sections/services.php:16
+msgid "Add your first service to show this section, or import the starter content."
+msgstr ""
+
+#: template-parts/sections/services.php:18
+msgid "Add a service"
+msgstr ""
+
+#: template-parts/sections/stats.php:23
+msgid "Add verified numbers in Homepage Sections → Statistics to show this section."
+msgstr ""
+
+#: template-parts/sections/stats.php:25
+msgid "Add statistics"
+msgstr ""
+
+#: template-parts/sections/team.php:16
+msgid "Add a team member to show this section."
+msgstr ""
+
+#: template-parts/sections/team.php:18
+msgid "Add a team member"
+msgstr ""
+
+#: template-parts/sections/team.php:43
+msgid "Website"
+msgstr ""
+
+#. translators: %s: person name.
+#: template-parts/sections/team.php:55
+#, php-format
+msgid "Photo of %s"
+msgstr ""
+
+#: template-parts/sections/testimonials.php:19
+msgid "Add a real client testimonial (written or YouTube video) to show this section."
+msgstr ""
+
+#: template-parts/sections/testimonials.php:21
+msgid "Add a testimonial"
+msgstr ""
+
+#. translators: %s: client name.
+#: template-parts/sections/testimonials.php:45
+#, php-format
+msgid "Play video testimonial from %s"
+msgstr ""
+
+#. translators: %d: rating.
+#: template-parts/sections/testimonials.php:65
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: template-parts/sections/testimonials.php:110
+msgid "Video testimonials"
+msgstr ""
+
+#: template-parts/sections/testimonials.php:120
+msgid "Written testimonials"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Blank Canvas (no header or footer)"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full Width (no title)"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Light accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Darkest"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Text"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Muted text"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Surface"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Brand"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Night"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Glow"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Theme body font"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Theme heading font"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""

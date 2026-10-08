@@ -1,0 +1,57 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": false,
+		"layout": {
+			"contentSize": "760px",
+			"wideSize": "1280px"
+		},
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"defaultDuotone": false,
+			"palette": [
+				{ "slug": "primary", "name": "Primary", "color": "#1761cf" },
+				{ "slug": "accent", "name": "Accent", "color": "#2f80ff" },
+				{ "slug": "accent-light", "name": "Light accent", "color": "#8cc0ff" },
+				{ "slug": "dark", "name": "Dark", "color": "#0a2a66" },
+				{ "slug": "darker", "name": "Darkest", "color": "#050f2c" },
+				{ "slug": "ink", "name": "Text", "color": "#0b1630" },
+				{ "slug": "ink-soft", "name": "Muted text", "color": "#56627a" },
+				{ "slug": "surface", "name": "Surface", "color": "#f5f8fd" },
+				{ "slug": "white", "name": "White", "color": "#ffffff" }
+			],
+			"gradients": [
+				{ "slug": "brand", "name": "Brand", "gradient": "linear-gradient(90deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--accent) 100%)" },
+				{ "slug": "night", "name": "Night", "gradient": "linear-gradient(140deg, var(--wp--preset--color--dark) 0%, var(--wp--preset--color--darker) 100%)" },
+				{ "slug": "glow", "name": "Glow", "gradient": "linear-gradient(150deg, var(--wp--preset--color--accent) 0%, var(--wp--preset--color--primary) 45%, var(--wp--preset--color--dark) 100%)" }
+			]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"fluid": true,
+			"fontFamilies": [
+				{ "slug": "body", "name": "Theme body font", "fontFamily": "var(--rp-font-body)" },
+				{ "slug": "heading", "name": "Theme heading font", "fontFamily": "var(--rp-font-heading)" }
+			],
+			"fontSizes": [
+				{ "slug": "small", "name": "Small", "size": "0.9rem", "fluid": false },
+				{ "slug": "medium", "name": "Medium", "size": "1.0625rem", "fluid": false },
+				{ "slug": "large", "name": "Large", "size": "1.25rem", "fluid": { "min": "1.125rem", "max": "1.25rem" } },
+				{ "slug": "x-large", "name": "Extra large", "size": "2rem", "fluid": { "min": "1.6rem", "max": "2rem" } },
+				{ "slug": "xx-large", "name": "Huge", "size": "3.25rem", "fluid": { "min": "2.25rem", "max": "3.25rem" } }
+			]
+		},
+		"spacing": {
+			"units": [ "px", "em", "rem", "%", "vw", "vh" ],
+			"blockGap": true
+		}
+	},
+	"styles": {
+		"spacing": {
+			"blockGap": "1.35em"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+/*
+Theme Name: Riaz Portfolio
+Author: Riaz Ahmed
+Description: A modern, fast and animated portfolio theme for consultants, marketers, freelancers and agencies. Every homepage section (hero, about, services, process, portfolio, case studies, testimonials, team, statistics, pricing, FAQ, call to action and contact) is editable from the Customizer and custom post types, and can also be placed anywhere with the "Theme Section" Gutenberg block, Elementor widget or shortcode. Built with no jQuery on the front end, self-hosted fonts, schema markup, Open Graph tags and WCAG-friendly navigation.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: riaz-portfolio
+Tags: portfolio, blog, one-column, two-columns, right-sidebar, custom-colors, custom-logo, custom-menu, editor-style, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+
+Riaz Portfolio is distributed under the terms of the GNU GPL v2 or later.
+The front-end styles live in assets/css/main.css; this file only carries the theme header.
+*/

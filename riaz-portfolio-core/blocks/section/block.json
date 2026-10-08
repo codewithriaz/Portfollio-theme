@@ -1,0 +1,37 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "riaz/section",
+	"title": "Theme Section",
+	"category": "riaz-portfolio",
+	"icon": "layout",
+	"description": "Insert a Riaz Portfolio section (hero, about, services, portfolio, testimonials, FAQ…). Its content is managed in the Customizer and the theme's post types.",
+	"keywords": [ "riaz", "section", "hero", "services", "portfolio", "testimonials", "faq", "pricing", "team" ],
+	"textdomain": "riaz-portfolio-core",
+	"attributes": {
+		"section": {
+			"type": "string",
+			"default": "services"
+		},
+		"anchorId": {
+			"type": "string",
+			"default": ""
+		},
+		"align": {
+			"type": "string",
+			"default": "full"
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "full" ],
+		"customClassName": false
+	},
+	"example": {
+		"attributes": {
+			"section": "services"
+		}
+	},
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php"
+}
